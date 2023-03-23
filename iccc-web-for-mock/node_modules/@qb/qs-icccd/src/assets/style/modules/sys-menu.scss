@@ -1,0 +1,78 @@
+.uo-menu-item {
+  // padding-top: 6px;
+  // line-height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .icon {
+    font-size: 14px;
+    color: $--uo-menu-item-color;
+  }
+  .menu-title {
+    color: $--uo-menu-item-color;
+  }
+}
+@media #{$medium} {
+  .uo-menu-item {
+    // padding-top: 9px;
+    // line-height: 14px;
+    font-size: 14px;
+    .icon {
+      font-size: 16px;
+    }
+  }
+}
+@media #{$large} {
+  .uo-menu-item {
+    // padding-top: 12px;
+    // line-height: 18px;
+    font-size: 14px;
+    .icon {
+      font-size: 18px;
+    }
+  }
+}
+
+.uo-menu-item:hover,
+.el-menu-item:hover,
+.el-submenu.is-active,
+.el-menu-item.is-active {
+  .menu-title {
+    color: $--uo-menu-item-active-color;
+  }
+  .icon {
+    color: $--uo-menu-item-active-color;
+  }
+}
+
+.tags-menu-popper {
+  margin-top: 0px !important;
+  border-radius: 0px;
+  left: 0px !important;
+  ul {
+    overflow: hidden;
+    li {
+      padding: 10px;
+    }
+  }
+}
+
+/* bounce动画
+---------------------------------------------*/
+.bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
