@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>1icon/监控/播放</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1icon/监控/播放" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#0B0B0B" opacity="0.200000003" cx="64" cy="64" r="64"></circle>
+        <path d="M61.773124,42.915444 L40.4171214,75.5686349 C39.4925722,76.9822647 39,78.6362376 39,80.3270854 C39,85.1170039 42.8698308,89 47.6435091,89 L90.3555144,89 C92.0406293,89 93.6889945,88.5057521 95.0978313,87.5780575 C99.088855,84.9500379 100.201011,79.5732363 97.5819021,75.5686349 L76.2258994,42.915444 C75.5766478,41.9227425 74.7311644,41.0743827 73.7418286,40.4229224 C69.7508049,37.7949027 64.3922333,38.9108427 61.773124,42.915444 Z M70.0006176,54.5 L84.5,76.5 L55.5,76.5 L70.0006176,54.5 Z" id="三角形" fill="#FFFFFF" transform="translate(69.000000, 64.000000) rotate(-270.000000) translate(-69.000000, -64.000000) "></path>
+    </g>
+</svg>

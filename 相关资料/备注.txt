@@ -1,0 +1,334 @@
+MD5:  43:31:C9:AD:15:B2:97:8A:C2:03:90:96:5F:42:A6:E7
+SHA1: A9:9D:21:F5:D2:DD:B9:B8:84:99:89:50:A0:8A:CD:44:54:56:8D:84
+SHA256: 5C:A8:5D:B8:E1:34:BD:A1:AB:57:D7:48:90:90:AC:6E:1B:17:37:D2:36:81:C0:66:87:E8:71:F5:0E:1B:F7:C9
+
+ftp://192.168.0.5/01%D1%D0%B7%A2%CA%B9%D3%C3/
+zdrgroup/123456
+
+ftp://192.168.0.245/
+
+QZYTHYY_APP（客户端）
+
+http://192.168.0.211/QBGROUP/01项目库/027厦门市GA局QB综合研判项目/06厦门情指APP/01首版本开发/01需求/APP原型，最新APP需求已上传
+
+1、http://192.168.0.211/QBPT1.0/01SYSTEM/Source3/04业务应用/12大数据新疆GAQB平台工作台  
+2、http://192.168.0.211/QBPT1.0/01SYSTEM/Source3/04业务应用/13合成作战-v2.0
+
+
+Vue UI的SVN:
+http://192.168.0.211/UIGZCG01/04情报业务/04新疆情报项目/大数据新疆GAQB平台/03大数据新疆GAQB平台工作台/04静态原型/dist
+账号:zhqb 123456
+
+
+C:\Users\Administrator\Downloads\BaiduLBS_AndroidSDK_Sample\BaiduLBS_AndroidSDK_Sample\BaiduMap_AndroidSDK_v5.4.4_Sample\BaiduMapsApiASDemo\app\debug.keystore
+TakjxhApp.jks
+证书指纹 (SHA1): 19:45:08:51:95:12:6E:99:25:80:92:24:51:5E:99:8A:1E:5F:CD:18
+MD5:  2C:6F:68:0E:03:C1:28:A9:50:9E:8F:5F:81:D6:FA:AD
+SHA1: 19:45:08:51:95:12:6E:99:25:80:92:24:51:5E:99:8A:1E:5F:CD:18
+SHA256: 10:0D:C4:61:72:2C:7C:1B:8A:B8:86:6E:2C:13:B6:E8:3F:89:C1:B1:8F:F5:18:49:2A:3B:8A:59:90:4A:88:3E
+
+携程卡号：2119878553   初始密码：SNzQRe7S
+随手学：JL701 1
+
+VPN：10.201.3.14 账号密码： 1  948783
+
+远程计算机：10.10.10.112  用户：23   密码：837735
+
+ChatListAdapter SendShortVideoProcessor
+打印机，连接方式：运行输入\\10.10.10.100，选择11F-Printer即可
+
+门户初始密码(没有自行更改过的)由000000，更改为dragon123。
+
+签名：D:\bingo\DragonsoftApp.jks  
+      BingoLi
+      密码：1234567 
+shengji
+fengshou
+huoyue
+qinghuai
+yangfan(2020年5月6号起)
+pinbo(2020年8月3号起)
+qinfen(2020年11月2号起)
+fenjin(2020年11月2号起)
+xingwang（2021年2月1号起）
+
+安装E-Message下载地址：ftp://192.168.0.1/ —“04-常用软件”
+安装顺序：
+点击右上角“设置安装”-勾选对话框“开启私有云服务”-配置IP地址：192.168.120.164
+登入：
+OA地址：http://192.168.120.165
+用户名：
+密码：默认是000000
+
+
+
+
+
+
+
+
+
+cfgs = [
+            compileSdkVersion    : 26,
+            buildToolsVersion    : "27.0.2",
+            minSdkVersion        : 14,
+            targetSdkVersion     : 26,
+            versionCode          : 10,
+            versionName          : "2.0.0",
+            ucropVersionCode     : 22,
+            ucropVersionName     : "2.2.0-native",
+
+            //open version control
+            androidSupportVersion: "27.0.2",
+            glide                : "4.5.0",
+            rxjava               : "2.0.5",
+            rxandroid            : "2.0.1"
+    ]
+io.reactivex:rxjava:1.3.8
+
+Retrofit+RxJava上传图片：https://blog.csdn.net/danceinkeyboard/article/details/78096926
+
+
+http://www.pc6.com/infoview/Article_183186.html
+
+
+
+自建服务端实现Tinker热修复
+https://www.8ym8.com/348585.html
+
+
+切换主题颜色、设置夜间模式
+D:\bingo\outnet_data\Toutiao\Toutiao-master
+D:\bingo\OpenCode\GeekNews\GeekNews-master
+
+
+----------------------------------------------------------------------------------------------------------------------------
+android 可编辑的表格框架
+
+
+
+https://gkcx.eol.cn/specials/school/803?argschtype=&province=&recomschprop=&argspecialtyname=%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6
+
+https://github.com/dodola/RocooFix
+
+打造高性能树形控件：
+https://github.com/shinem/TreeView
+
+Android热修复技术对比表：
+https://www.jianshu.com/p/6ae1e09ebbf5
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+链接:https://fir.im/p91d
+
+
+
+
+http://47.98.159.55:50444/#/ems/marketing/task
+(用Google游览器或者360极速模式登陆）
+账号：vma123  密码：vmakj987
+
+  vmazs 
+vmakj667788
+
+https://cn8y6t.axshare.com
+
+
+https://lanhuapp.com/url/azH1t
+
+
+
+http://www.telpouc.com.cn/Article-pdetail-id-883.html
+
+字体：https://github.com/A-W-C-J/Androidfont 
+      https://github.com/zrunker/ZFontTextView/tree/master/app/src/main/assets/fonts
+      https://github.com/chrisjenx/Calligraphy/tree/master/CalligraphySample/src/main/assets/fonts
+      https://github.com/norbsoft/android-typeface-helper/tree/master/sample/src/main/assets/fonts
+
+html5调用设备摄像头，实现二维码扫描   https://www.jianshu.com/p/e03bd23b6b5c
+
+5122 3967807228
+百度搜索：web app h5移动端开发框架
+2018开发最快的Webapp框架--BUI交互框架   https://segmentfault.com/a/1190000012994082
+https://www.25xt.com/html5css3/13139.html
+https://www.cnblogs.com/kingboy2008/p/5261771.html
+
+
+1. android 图标
+drawable 96*96
+drawable-ldpi 36*36
+drawable-mdpi 48*48
+drawable-hdpi 72*72
+drawable-xhdpi 96*96
+drawable-xxhdpi 144*144
+
+启动页
+
+1. android
+
+ldpi：240 x 320 (portrait) 320 x 240 (landscape)
+mdpi  320 x 480 (portrait) 480 x 320 (landscape)
+hdpi 480 x 800 (portrait) 800 x 480 (landscape)
+xhdpi 720 X 1280 (portrait) 1280 x 720 (landscape)
+xxhdpi 1080 x 1920 (portrait) 1920 x 1080 (landscape)
+
+
+Android开发人员不得不收集的工具类集合  https://github.com/vondear/RxTool
+Android WebView            https://github.com/Justson/AgentWeb
+
+YCVideoPlayer: https://github.com/yangchong211/YCVideoPlayer
+视频播放器封装库案例，仿照优酷，爱奇艺视频播放器，可以添家视频观看权限，试看模式，类似优酷试看功能。基于ijkplayer，支持网络视频或者本地视频播放，滑动调节亮度或者音量，快进快退，记录播放位置。可以设置边观看变缓存，支持全屏播放，小窗口，正常播放等模式；还支持列表播放，切换分辨率，还可以自定义视频播放器，拓展性强
+
+
+BigImageViewPager：一个图片浏览器，支持超大图、超长图、支持手势放大、支持查看原图、下载、加载百分比进度显示。采用区块复用加载，优化内存占用，有效避免OOM，注意：支持网络图片、本地图片。
+
+PickView                                 https://github.com/brucetoo/PickView
+基于第三方WheelView 实现的一个时间选择器 https://github.com/chsmy/DateSelecter
+TimePickerDialog Android时间选择器       https://github.com/JZXiang/TimePickerDialog
+日历标记：                               https://github.com/huanghaibin-dev/CalendarView
+
+
+Android 下拉框第三方控件 NiceSpinner     https://github.com/arcadefire/nice-spinner
+MaterialSpinner  https://github.com/ganfra/MaterialSpinner
+MaterialSpinner  https://github.com/jaredrummler/MaterialSpinner
+
+android开源图表库MPAndroidChart（曲线图、直方图、饼状图）
+
+日历控件：https://github.com/huanghaibin-dev/CalendarView
+
+
+
+E通卡网点：http://218.5.80.17:8092/weixin/query
+
+http://wx.xiamenjt.com/GZCX/ECARD/list?openid=
+
+社保卡号：DD4793476  362428199508152148
+
+
+
+ftp://zdrgroup@192.168.0.5/01产品待测试库(研发提交给测试的BETA包)
+
+ftp://zdrgroup@192.168.0.5/01产品待测试库(研发提交给测试的BETA包)/152河南情报APP/QBJW_HENAN-180807/QBJW-APP_HENAN-1.0.1.127165-BETA-180807/
+
+改善的okHttp封装库：
+https://blog.csdn.net/lmj623565791/article/details/49734867
+
+
+
+
+
+学习视频库 链接：https://pan.baidu.com/s/1V0MBC0MIotI5HZuNaTuOFQ 密码：odu6
+由于文件比较大,链接容易失效。若失效，请看下面的子分类链接
+------------------------------------------------------
+Java  链接：https://pan.baidu.com/s/1xzgzv4Jnaa-zqjEuEiieFw 密码：mjai
+微信开发  链接：https://pan.baidu.com/s/1N_tFic6BKhzeUrQJe_XLgQ 密码：98no
+SEO  链接：https://pan.baidu.com/s/1w2xNzjV2n46iCuVT-ysmnw 密码：qdms
+数据库        链接：https://pan.baidu.com/s/1whLBYpzgWaoGzCgsRdh48w 密码：2hv9
+人工智能  链接：https://pan.baidu.com/s/1JKPkwmQxBuzu2N8tAeKCjw 密码：hq59
+区块链  链接：https://pan.baidu.com/s/1WN5BWTsxxa2gjEe5WiSdcw 密码：95cb
+前端技术  链接：https://pan.baidu.com/s/1GZ4eOmes8owS7ZYTz51kAw 密码：cb0r
+Solr5  链接：https://pan.baidu.com/s/1Sc4X8oor4-9ddqNRAFHK8Q 密码：dd8v
+大数据  链接：https://pan.baidu.com/s/1lTI88KKl5mtlF-70Nn3ASg 密码：oyze
+Activiti工作流  链接：https://pan.baidu.com/s/1rbYuXQZArMdO6HaINBPNEw 密码：aeps
+Redis  链接：https://pan.baidu.com/s/1G3M-HxBR2WJIB2g8C3dZbQ 密码：seej
+React  链接：https://pan.baidu.com/s/1yQFTp0WvXy1YmM_wRNeVnA 密码：saew
+Python 链接：https://pan.baidu.com/s/1G6qfNi9h6FAnOB2NddqI7g 密码：rf0d
+PHP  链接：https://pan.baidu.com/s/1KLJ3SudN69rkJSnTKMKAjA 密码：7wvb
+Nginx  链接：https://pan.baidu.com/s/1kpiBSRrbhUGh5ZF7g6QlaQ 密码：kv04
+Maven  链接：https://pan.baidu.com/s/1K7C3pXs8ICFsJby5901mnw 密码：4uwb
+Git  链接：https://pan.baidu.com/s/1HEj7McNKiK6wyVSYEa7Qmg 密码：oq4h
+dedeCMS织梦  链接：https://pan.baidu.com/s/1NnHM-zpywnjobYjCyjh4KQ 密码：hz91
+软考  链接：https://pan.baidu.com/s/1C_ecqvKK-AobfgebELulnQ 密码：gw9m
+
+
+android 如何将树形数据z
+https://github.com/niugao/RecyclerListTreeView
+https://segmentfault.com/q/1010000008303658
+https://blog.csdn.net/yingtian648/article/details/56518396
+
+多级、树级数选择器
+https://github.com/Sogrey/TreeDataView
+多级展开菜单目录
+https://github.com/behindeye/CustomMultiExpandDemo
+三级或多级选择菜单，支持左右滑动
+https://github.com/arlong/MultiMenuSelect
+
+mnt/shell/emulated/0/Others/txt.txt
+wifi断开后打开cmd执行：
+
+
+route delete 0.0.0.0 -p
+route delete 192.0.0.0 -p
+route delete 172.0.0.0 -p
+route add 192.0.0.0 mask 255.0.0.0 10.11.0.1 metric 999 -p
+route add 172.0.0.0 mask 255.0.0.0 10.11.0.1 metric 999 -p
+route add 0.0.0.0 mask 0.0.0.0 10.100.0.1  metric 888 -p
+
+--
+route delete 0.0.0.0 -p
+route add 0.0.0.0 mask 0.0.0.0 10.100.0.1 metric 2 -p
+
+route add 192.0.0.0 mask 255.255.0.0 10.11.0.1 metric 1 -p
+route add 10.0.0.0 mask 255.255.0.0 10.11.0.1 metric 1 -p
+route add 172.0.0.0 mask 255.255.0.0 10.11.0.1 metric 1 -p
+--
+
+https://www.echartsjs.com/zh/index.html
+
+
+
+再开启wifi
+    http://106.53.78.24:8080/Takjxh/app/sys/param/list.do
+http://106.53.78.24:8080/Takjxh/app/exam/start/01.do?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJlMTFjODJkNmY3MDcxMWU5YjM5ZmIyZTY2OTVjOTFjMyJ9.v-tzK7cDgQD0n-aB-r0XN_7mO0Fy0plFluawi3TC7MM
+
+
+
+
+http://106.53.78.24:8080/Takjxh/app/policy/apply/detail/541ff3ae58bd103896b87a6795b7d300.do?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJlMTFjODJkNmY3MDcxMWU5YjM5ZmIyZTY2OTVjOTFjMyJ9.v-tzK7cDgQD0n-aB-r0XN_7mO0Fy0plFluawi3TC7MM
+
+http://106.53.78.24:8080/Takjxh/app/apply/order/generate.do?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiJlMTFjODJkNmY3MDcxMWU5YjM5ZmIyZTY2OTVjOTFjMyJ9.v-tzK7cDgQD0n-aB-r0XN_7mO0Fy0plFluawi3TC7MM
+ 
+
+
+控件搞定多种水波纹涟漪扩散效果
+https://github.com/zhuwentao2150/RippleView
+
+Android酷炫自定义控件(View)汇总
+https://github.com/madongqiang2201/views
+
+
+RichText：Android平台下的富文本解析器，支持HTML和Markdown
+https://github.com/zzhoujay/RichText
+
+
+SimpleTagImageView：这个库相对于上面的两个库，就正常了很多，也比较实用。实现的是给图片角上打倾斜的tag。
+项目地址：https://github.com/wujingchao/SimpleTagImageView
+
+StepView：提示操作步骤的巅峰之作，非常符合我的审美。快递物流信息，步骤、轨迹
+项目地址：https://github.com/baoyachi/StepView
+
+labelview- 贴纸效果，如：淘宝商品侧贴折扣
+项目地址:https://github.com/linger1216/labelview
+一个倾斜的TextView,适用于标签效果
+项目地址:https://github.com/HeZaiJin/SlantedTextView/blob/master/README-cn.md
+
+ObservableScrollView- 
+在滚动的视图观测滚动事件的Android库 它易于与在Android 5.0 Lollipop中引入的工具条Toolbar相交互，
+并能够帮助实现Material Design apps的外观
+项目地址:https://github.com/ksoichiro/Android-ObservableScrollView
+
+Context-Menu.Android- 可以方便快速集成漂亮带有动画效果的上下文菜单
+项目地址：https://github.com/Yalantis/Context-Menu.Android
+
+
+统计表：https://github.com/z3896823/PanelList
+https://github.com/huangyanbin/smartTable
+
+
+最新的文件选择器：https://github.com/rosuH/AndroidFilePicker
+
+画UML在线工具：https://www.processon.com
+

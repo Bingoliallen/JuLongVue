@@ -1,0 +1,28 @@
+Android前沿技术替代
+1.使用MMKV替代SP存储：https://github.com/Tencent/MMKV
+2.使用WCDB数据库框架替代SQLite，ObjectBox可进一步研究：https://github.com/objectbox/objectbox-examples
+3.日志打印xLog：https://github.com/elvishew/xLog
+
+
+Jetpack Kotlin：https://github.com/Jetpack-Missionary/Jetpack-From-Java-To-Kotlin
+Jetpack Mvvm：https://github.com/KunMinX/Jetpack-MVVM-Best-Practice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

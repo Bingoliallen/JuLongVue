@@ -1,0 +1,180 @@
+Kotlin 教程：http://www.runoob.com/kotlin/kotlin-tutorial.html
+
+http://192.168.0.151:8087/view/%E5%AE%89%E5%8D%93%E6%9E%84%E5%BB%BA/job/gdapp/
+安卓打包参考这个项目的配置
+调了子节点来做依赖下载和sdk
+
+1.省市县三级选择：
+2.无限多级的父子节点排序的选择列表，统一：id，pid，name；
+3.参数化参数入口；
+4.消息推送系统；
+5.提取“协作任务”通用版功能：
+6.提取“在控登记”通用版功能：
+7.提取公共组件：json数据解析，附件的下载、查看，多图的浏览，图片处理、加载，无限多级的选择组件，
+                省市县三级的弹窗选择组件，上拉更多、下拉刷新组件，RecyclerView列表组件自定义样式
+                布局、间隔、分割线及适配器，自定义确定/取消的弹窗控件，圆形头像控件，tab UI，
+                状态栏、标题栏的风格统一设置
+8.热修复
+9.版本检测更新
+http://p.codekk.com/
+https://ke.qq.com/course/144247 	WeX5是领先的跨端移动开发框架，是开发H5 App的首选开发工具。本系列课程是初级开发者必修课程，讲解从零开始快速开发一个仿微店App。
+
+10.接口入参定义规范；
+11.Crash的log日志上传
+12、api请求接口表头带设备信息
+13、系统通知
+14、消息推送Socekt
+15、地图（独立库）api入口调用
+16、本地文件RSA加密
+17、数据库
+18、token验证及单点登录
+19、可叠加组件
+d2j-jar2dex.bat classes.dex
+http://down.52pojie.cn/Tools/Android_Tools/
+
+仿微信(weixin wechat)实现的朋友圈  https://github.com/Naoki2015/CircleDemo
+
+BottomBarLayout(轻量级底部导航栏)
+BaseRecyclerViewAdapterHelper(ReclerView万能适配器)
+StateView(用于几种状态布局的切换)
+JieCaoVideoPlayer(视频播放)
+BGARefreshLayout-Android(下拉刷新)
+Eyes(修改状态栏颜色)
+ColorTrackTabLayout
+EventBus
+KLog(log管理)
+.github地址：https://github.com/drakeet/MultiType
+- 使用 ItemTouchHelper 实现今日头条的频道排序、频道移动, 参考 [ItemTouchHelperDemo ](https://github.com/YoKeyword/ItemTouchHelperDemo)
+
+
+
+ToggleButton
+状态切换的 Button，类似 iOS，用 View 实现
+项目地址：https://github.com/zcweng/SwitchButton
+
+
+链接: https://pan.baidu.com/s/1o8sqTuU 
+密码: tvw2
+
+四中心：https://192.168.150.58:8080/SZX_GD/MenuPage.do
+四中心APP：https://192.168.150.58:8083/szxappserver/index.do
+综合查询：https://192.168.5.98:8096/zhcx
+全息档案：https://192.168.5.101:8480/qxda
+线索猎手：https://192.168.5.108:8082/CLUESHUNTER/
+
+
+MvpApp：练习MVP架构开发的App
+用到的第三方库：
+
+leakcanary ：检测应用内存泄漏问题，这个都知道吧
+butterknife ：帮助Android控件和回调的进行依赖注入，JakeWharton大神的力作
+dagger2 ：Android和Java依赖注入库
+rxjava ：一个实现异步操作的库，现在非常火
+RxAndroid ：用于Android的Rxjava绑定库
+RxBinding ：配合Rxjava处理控件异步调用
+RxLifecycle ：防止RxJava中subscription导致内存泄漏
+RxPermissions ：基于RxJava开发的用于帮助在Android 6.0中处理运行时权限检测
+retrofit ：目前最好用的网络通讯库，应该都用过吧
+okhttp ：okhttp和retrofit做网络通讯是绝配
+greenDAO ：ORM数据库，能配合rxjava使用
+logger ：Log库，让打印的Log变得非常漂亮
+glide ：Google出品的图片加载库，这里有非常好的指导文档：https://mrfu.me/2016/02/27/Glide_Getting_Started/
+BaseRecyclerViewAdapterHelper ：很好用的RecyclerView多功能适配器库，项目里我并没有直接用这个库，而是按我自己使用习惯在它较早的代码上做了些改动
+recyclerview-animators ：RecyclerView的动画库，内置了非常多的动画效果
+CircleImageView ：非常常用的用来显示圆形头像的库
+PhotoView ：可根据手势进行缩放的图像库，这个也很常见
+AndroidImageSlider ：展示头部Banner的库，动画效果很多，就是需要依赖picasso和nineoldandroids这两个库
+NumberProgressBar ：性感的数字进度条
+FlycoTabLayout ：样式比TabLayout多样的Tab库
+FlycoDialog ：多功能的Dialog
+FlycoLabelView ：添加角标的库
+gson ：帮助Json和Object转换，这个也常用
+ijkplayer ：B站出品的视频解码库
+DanmakuFlameMaster ：同样B站出品的弹幕库
+ShineButton ：炫酷效果的点击按钮，主要用于显示收藏之类的动画
+RichText ：富文本的处理库，用起来挺方便就是有内存泄漏- -
+Android-SpinKit ：集成多种动画效果的Drawable，之前有看源码觉得代码封装得挺好，动画不仅仅只能用在View上
+filepicker ：这个是用来处理PreferenceScreen的文件选中库，PreferenceScreen感觉平时不怎么看到使用，用法到时挺特别
+tinker ：微信Android热补丁方案，功能强大，和其它热修补方案对比看这里wiki
+DragSlopLayout ：一个辅助开发拖拽功能的库，这是我为了做这个App的某些功能封装的库- -，现在倒也有用在工作的项目上
+IjkPlayerView ：基于ijkplayer开发的播放器，也是为了做这个App的视频播放功能封装的库- -，里面加了弹幕功能，感兴趣可以看下
+TagLayout ：标签库，可做为自定义按钮来使用
+
+
+OuNews 简单的新闻客户端
+用到的开源库：
+Quick-News API来自此项目，特此感谢
+RxJava 响应式编程框架
+Retrofit2.0 REST安卓客户端请求库
+OkHttp3 网络请求
+Glide 图片加载
+GreenDao 数据库操作
+PhotoView 图片缩放
+Ijkplayer 视频播放
+AndroidChangeSkin 无需重启换肤
+......
+
+org.sufficientlysecure.htmltextview.HtmlTextView
+
+
+QBox小秋魔盒是一个生活工具 App，主要功能有：新闻资讯；微信精选美文；笑话趣图；星座运势；LED字幕；天气；日历；二维码；手电筒；老黄历。
+
+一些针对功能的开源库
+BaseRecyclerViewAdapterHelper RecycleView 拓展库
+ReactiveNetwork 手机网络连接状态动态监控
+colorpicker 颜色画板选择库
+BGAQRCode-Android 二维码扫描项目
+MPAndroidChart 图表库
+material-calendarview 材料设计日历控件
+flexbox-layout 盒子布局控件
+KenBurnsView 视差图片控件
+materialsearchview 材料设计搜索框
+MagicIndicator 指示器库
+Android应用自动更新库(android-auto-update)
+Slidinglayout 果冻弹跳效果
+SlidingTutorial-Android 引导页
+Android 权限的动态申请
+图片手势控件
+
+excel文档的读取：https://github.com/zhangshao45612/FileToDbDemo
+频道管理：https://github.com/zhuguohui/ChannelMangerDemo
+
+https://github.com/LuckyJayce/ViewPagerIndicator 引导页
+https://github.com/bingoogolapple/BGABanner-Android 引导页
+
+https://github.com/ssseasonnn/RxDownload 基于 RxJava 和 Retrofit 打造的 Android 开源下载工具, 支持多线程下载和断点续传, 智能判断是否支持断点续传等功能
+https://github.com/MindorksOpenSource/PRDownloader 断点续传，大文件下载，提供了像 onProgress、onCancel、onStart、onError 等回调
+
+
+https://github.com/JsonChao/Awesome-WanAndroid：基于Material Design + MVP + Rxjava2 + Retrofit + Dagger2 + GreenDao + Glide
+https://github.com/ForgetSky/WanAndroid：基于 Material Design + MVP +dagger2 + RxJava + Retrofit + Glide + greendao ，FlowLayout：产品标签
+https://github.com/senonwx/WanAndroid：模块化了客户端，运用MVP+Retrofit+Rxjava+Rxlifecycle+Glide+Eventbus+ARouter
+https://github.com/chongyucaiyan/WanAndroid-Java：采用MVVM + Retrofit + RxJava架构开发
+
+
+垂直纵向的TabLayout、轻松创建纵向导航：
+https://github.com/qstumn/VerticalTabLayout
+
+
+AppUpdater一个专注于App更新，一键傻瓜式集成App版本升级的开源库。(无需担心通知栏适配；无需担心重复点击下载；无需担心App安装等问题；这些AppUpdater都已帮您处理好。)：
+https://github.com/jenly1314/AppUpdater
+
+https://github.com/yangchong211/YCWebView：基于腾讯x5开源库，提高webView开发效率，大概要节约你百分之六十的时间成本。该案例支持处理js的交互逻辑且无耦合、同时暴露进度条加载进度、可以监听异常error状态、支持视频播放并且可以全频、支持加载word，xls，ppt，pdf，txt等文件文档、发短信、打电话、发邮件、打开文件操作上传图片、唤起原生App、支持webView页面截图、x5库为最新版本，功能强大
+https://blog.csdn.net/taoyuxin1314/article/details/97004996 pdf
+
+
+报表1：https://www.echartsjs.com/examples/zh/editor.html?c=dynamic-data
+报表2：https://www.echartsjs.com/examples/zh/editor.html?c=pie-legend:
+报表3：https://www.echartsjs.com/examples/zh/editor.html?c=line-style
+
+
+http://106.53.78.24:8080/Takjxh/app/sys/param/list.do
+https://github.com/WangGanxin/LoadDataLayout：App 公共组件：加载数据 Layout，高效开发必备！
+
+
+
+华为：账号18405052112，密码tnkjxh123；    
+ VIVO：账号：tnkjxh，密码：Tnkjxh123
+三星：22854696@qq.com，密码：tnkjxh-2019
+三星：帐号：454939864@qq.com 密码：p@ssw0rd
+豌豆荚的账号：18850150220 密码：cxf-0123

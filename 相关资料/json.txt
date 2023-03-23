@@ -1,0 +1,514 @@
+-------------------------开始----------------------------------------
+route delete 0.0.0.0 -p
+route delete 192.0.0.0 -p
+route delete 172.0.0.0 -p
+route delete 10.0.0.0 -p
+
+route add 192.0.0.0 mask 255.0.0.0 10.11.0.1 metric 999 -p
+route add 172.0.0.0 mask 255.0.0.0 10.11.0.1 metric 999 -p
+route add 10.0.0.0 mask 255.0.0.0 10.11.0.1 metric 999 -p
+route add 0.0.0.0 mask 0.0.0.0 10.100.0.1  metric 1 -p
+
+
+http://10.11.0.90:1695
+
+http://10.11.0.90:8088
+
+http://10.11.0.90:8087
+
+http://10.11.0.90:3641
+
+--------------------------结束---------------------------------------
+administrator/yykfb  http://10.11.0.90:3640/#/qwbk/people/123  
+
+新版需求和原型已上传SVN http://192.168.0.211/QBGROUP/02产品库/33情指云控/广东省GA厅QB一体化平台云化项目/01首版本开发/02 需求文档，主要调整了布控申请的预警条件、预警规则规则等部分
+
+
+
+http://192.168.0.211/QBPT1.0/01SYSTEM/Source/90手机APP/河南情报警务APP/源码/branches/qbjw-android_henanzz/app
+最新打包方式：http://192.168.0.151:8087/job/demo-android-app/
+
+http://192.168.0.211/QBOUTSOURCE/03合成作战（内蒙古）/01源代码/HCZZ_NM
+开发路径已经切换
+SVN 密码：123456
+首次获取SVN密码时，须在24H内完成密码修改。
+修改密码路径：http://192.168.0.211/cgi-bin/passwdQBOUTSOURCE.cgi
+注：用360或者IE浏览器访问。如用高版本ie访问，如ie11，需将url加入安全站点和兼容性视图。
+
+<i class="el-submenu__icon-arrow el-icon-arrow-right"></i>
+http://192.168.0.211/QBGROUP/04知识库/04开发技术/08 PlantUml
+微博密码：android123456
+
+菜鸟教程：
+1.VUE教程：https://www.runoob.com/vue2/vue-events.html
+2.Bootstrap教程：https://www.runoob.com/bootstrap/bootstrap-buttons.html
+
+公司内部前端学习：
+1.前端学习汇总：http://172.16.0.107:4999/web/#/16
+2.巨龙微服务平台框架V4.0-ui-jz-v4：[http://192.168.10.14:1645)
+3.巨龙微服务平台框架V4.0-ui-component-v4：[http://192.168.10.14:8085/#/zh-CN)
+
+element-ui学习：
+1.官网：https://element.eleme.cn/#/zh-CN/component   https://element.eleme.cn/2.0/#/zh-CN/component/installation
+2.公司内网：http://192.168.10.14:8085/#/zh-CN/component/installation 
+            http://192.168.10.14:8085/#/zh-CN/component/date-picker
+            http://192.168.10.14:1647/#/file/developing-demo
+
+项目代码学习：http://192.168.0.211/QBPT1.0/01SYSTEM/Source3/05学习示例/QB-TRAIN-v1/源代码/QB-TRAIN-1.0.0  风谷demo
+
+Sass学习：
+1.Sass中文网：https://www.sass.hk/docs/
+
+Axios学习：
+1.https://www.kancloud.cn/yunye/axios/234845
+
+ES6学习：
+1.https://es6.ruanyifeng.com/#docs/promise
+
+Api管理中心：
+1.http://172.16.0.103:6130/index.html#/code/builder
+
+Html学习：
+1.https://www.w3school.com.cn/tags/tag_i.asp
+
+即时通讯（E-MOBILE）服务器地址：
+网页下载地址：http://192.168.140.165:8999/emdownload
+ftp://10.11.0.239:23/E-Mobile
+PC端：http://192.168.120.164:8999；
+手机端：http://oa.dragonit.com.cn:89
+
+
+新疆工作台： http://192.168.0.211/UIGZCG01/04情报业务/04新疆情报项目/大数据新疆GAQB平台/03大数据新疆GAQB平台工作台/04静态原型
+UI-SVN: zhqb  123456
+1.车辆轨迹大数据应用系统：http://10.254.10.162:9080/CLGJ_XJ/MenuPage.do
+2.重点人员动态管控系统：http://10.11.0.38:8087/MenuPage.do
+3.重大事件预警防范系统：http://10.254.11.83:8083/ZDSJ_STD3/MenuPage.do    省厅：xj_admin/123456
+
+4.api管理中心:http://172.16.0.103:6130/index.html#/service/list                 qb-gaqbgzt-xj
+5.Jenkins打包地址：http://192.168.0.151:8087/view/%E6%96%B0%E7%96%86%E4%BA%91%E7%8E%AF%E5%A2%83/job/XJGZT/
+
+6.PDK开发工具：http://10.11.0.6:8080/ZDSJ_STD3/pdk/
+7.http://192.168.0.211/UIGZCG01/04情报业务/04新疆情报项目/大数据新疆GAQB平台/03大数据新疆GAQB平台工作台/04静态原型/dist
+       zhqb/123456
+
+
+8.提测：ftp://zdrgroup@192.168.0.5/01研发使用/01产品待测试库(研发提交给测试的BETA包)/219大数据新疆GAQB工作台/前端/GAQBGZT-WEB_XJ-1.0.0.165865-BETA-200426/
+
+ftp://zdrgroup@192.168.0.5/01研发使用/01产品待测试库(研发提交给测试的BETA包)/219大数据新疆GAQB工作台/前端/GAQBGZT-WEB_XJ-1.0.0.165998-BETA-200429/
+/GAQBGZT-WEB_XJ-1.0.0.165998-BETA-200429/
+
+http://192.168.0.211/QBPT1.0/01SYSTEM/Source3/04业务应用/12大数据新疆GAQB平台工作台/源码/trunk/GAQBGZT_XJ
+
+9.本地Oracle11g的管理口令：Lbb341022
+
+10.接口文档：http://192.168.0.211/QBGROUP/01项目库/030大数据新疆公安QB平台建设项目/06GAQB平台工作台/01首版本开发/02设计/新疆工作台待办接口文档-200423.doc
+
+
+11.背景审查：http://192.168.0.153/sp/bjsc_web.git    develop_V4.0.0_libb 
+
+
+
+1.MVVM设计模式的一套快速开发库，整合Okhttp+RxJava+Retrofit+Glide等主流模块： https://github.com/goldze/MVVMHabit
+   ，(Retrofit+Okhttp+RxJava+Glide+Rxlifecycle+Rxpermissions+RxBus+Messenger)  
+2.基于MVVMHabit框架，结合阿里ARouter打造的一套Android-Databinding组件化开发方案：     https://github.com/goldze/MVVMHabitComponent，https://github.com/wave-chtj/BaseMVVMRouter
+3.MS：https://github.com/xiangjiana/Android-MS
+
+
+
+http://192.168.0.211/UIGZCG01/04情报业务/06山西情报项目/01太原铁路   zhqb/123456
+http://192.168.0.211/QBPT1.0/01SYSTEM/Source/11大屏监测/trunk/DPJC_TYTL_NEW
+
+pagingRequest
+Cookie JSESSIONID=D742F68121B9517EA1400ED49C5EAFF5
+
+PagingResponse
+http://ip:port/context/dubbo/services/v2/gztService/pagingSearchDfk
+
+http://ip:port/context/dubbo/services/v2/gztService/agreeBksq
+      
+
+
+       
+   
+                
+border :header-cell-style="{background:'#f6f9fe',color:'#606266'}" :stripe="true"                
+<style>
+    /* 解决element-ui的table表格控件表头与内容列不对齐问题 */
+    .el-table th.gutter{
+        display: table-cell!important;
+    }
+
+
+</style>           
+               
+
+13850052232 123456
+13850053913 123458
+
+350212201903107122 
+
+
+
+https://admin.it120.cc/#/user/apiExtUser/list
+
+wxb4b2a8d24cd36b0b b7a606a267df1e61ab871fabff7e8dad
+
+
+
+12.39.46.17:30217/MSQB_XJ/dubba/app/appFw
+
+http://20.20.32.59:8088/MSQB_XJ/dubbo/app/appFw
+
+
+
+
+http://10.11.0.36:8071/?type=1/#/
+
+
+host: '10.11.0.90',
+
+
+
+
+
+
+
+http://zjjn_test_user.ghlearning.com/train/rest/class/query-platform-banner.gson?type=1&platform=2
+http://zjjn_test_user.ghlearning.com/train/rest/class/query-platform-banner.gson?type=1&platform=2
+
+
+
+在那蓝色海的天边:
+http://kredu.wicp.net:8100/ZJ/swagger-ui.html 管理平台接口
+
+
+http://kredu.wicp.net:9120/train/swagger-ui.html 培训平台接口
+
+
+zjjn_test_manage.ghlearning.com  管理
+zjjn_test_user.ghlearning.com   培训平台
+
+https://kairui-2.ghlearning.com/swagger-ui.html
+
+http://zjjnts.ghlearning.com:80/info/14372.jspx
+https://zjjnts.ghlearning.com:80/info/16134.jspx
+//zjjnts.ghlearning.com:80/info/14372.jspx
+
+小程序--郑州高辉职业培训学校
+账号：
+xmdzy003@hnhh.net.cn    邮箱关联
+手机号  17750439019  
+
+小程序的密码hnhhdzyx123456
+
+
+https://github.com/LiangLuDev/wxapp-request
+https://github.com/lidong1665/WeiXinProject 分页
+
+
+https://wx_image.ghlearning.com/ico/v11/android/drawable-xxxhdpi/customer_service.png
+
+
+ DEV_URL:'http://zjjn_test_manage.ghlearning.com',
+    TRAIN_URL:'http://zjjn_test_user.ghlearning.com/train',
+    imgUrl:'https://zjjn_test_user.ghlearning.com',
+    iconUrl:'https://wx_image.ghlearning.com',
+
+
+https://zjjnts-train.ghlearning.com/index
+https://zjjnts-manage.ghlearning.com/index
+https://wx-image.ghlearning.com/
+
+线上正式环境
+https://zjjnts-train.ghlearning.com/index
+https://zjjnts-manage.ghlearning.com/index
+
+
+图片地址：
+https://wx-image.ghlearning.com//ico/v11/android/drawable-xxhdpi/customer_service.png
+
+
+http://imageserver.yxlearning.com
+http://zjjnts.ghlearning.com
+http://zjjnts.ghlearning.com
+http://zjjnts.ghlearning.com
+
+
+https://api.weixin.qq.com/
+
+
+DEV_URL:'https://zjjnts-manage.ghlearning.com',
+    TRAIN_URL:'https://zjjnts-train.ghlearning.com/train',
+    imgUrl:'https://zjjnts-manage.ghlearning.com',
+    iconUrl:'https://wx_image.ghlearning.com',
+
+
+协议：
+https://wx_image.ghlearning.com/html/Registration_agreement.html
+https://wx_image.ghlearning.com/html/User_agreement.html
+https://wx_image.ghlearning.com/html/Privacy_policy.html
+https://wx_image.ghlearning.com/html/Face_protocol.htm
+
+
+
+
+ftp://zdrgroup@192.168.0.5/01研发使用/01产品待测试库(研发提交给测试的BETA包)/223背景审查（产品）/通用版/
+
+新的目录
+
+【0927研发】
+ 1、内蒙古合成作战：qb114，查询请求受理详情对接数据(50%)；
+ 2、内蒙古合成作战：qb114，我的查询请求详情对接数据(50%)；
+
+
+
+
+【1016研发】
+ 1、新疆工作台：增加store存储待办、关注的总数(100%)；
+ 2、新疆工作台：对接情报研判接口(100%)；
+ 3、新疆工作台：增加情报审批弹窗(100%)；
+ 4、新疆工作台：对接情报研判的详情、签收、反馈、审批接口(100%)；
+【1015研发】
+ 1、新疆工作台：对接末梢信息接口(100%)；
+ 2、新疆工作台：对接末梢信息的详情、签收、反馈、审批接口(100%)；
+ 3、内蒙古合成作战：qb114，查询请求受理详情：修改已完成状态时的评价栏的显示条件限制(100%)；
+
+【1014研发】
+ 1、新疆工作台：评价结果查询，新增评价的校验，修改评价接口提交(100%)；
+ 2、新疆工作台：新增头像上传地址(100%)；
+ 3、新疆工作台：修改我的待办-末梢信息、情报研判布局(100%)；
+ 4、内蒙古合成作战：qb114，修改发起查询申请、我的查询请求详情和查询请求受理详情的布局(100%)；
+
+【1013研发】
+ 1、新疆工作台：新增我的关注-关注人员、关注信息的布局(100%)；
+ 2、新疆工作台：dids登录页，增加谷歌浏览器下载(100%)；
+ 3、新疆工作台：配合现场联调新的dids登录(100%)；
+【1012研发】
+ 1、新疆工作台：配置dids登录页(100%)；
+ 2、新疆工作台：增加dids登录页的PKI登录(100%)；
+
+
+
+
+http://10.11.0.90:3630/#/vehicle-track/vehicle-search/vehicle-search-result
+
+[{"value":"1","label":"黑色"},{"value":"10","label":"紫色"}]
+
+{"status":1,"data":{"statusCode":"200","message":"布控成功","data":{"bksqbh":"01000020091500000019"}},"httpCode":200,"errCode":0,"errMessage":null}
+
+
+
+
+
+
+
+
+
+
+
+<form-table v-for="(item, index) in tableData" :key="index">
+              <template v-slot:header>
+                <div class="form-table__top">
+                  <div class="form-table__top-left"><i class="iconf-company iconfont"></i>娱乐场所住宿登记</div>
+                  <dg-tag effect="plain" type="success">
+                    已下发待签收
+                  </dg-tag>
+                </div>
+              </template>
+              <template v-slot:content>
+                <dg-form-item label="预警时间：">{{ item.yjsj }}</dg-form-item>
+                <dg-form-item label="活动时间：">{{ item.hdsj }}</dg-form-item>
+                <dg-form-item label="活动地点：">{{ item.hddd }}</dg-form-item>
+              </template>
+            </form-table>
+
+
+
+
+.warningForm {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  .grid-wrapper {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  &-item {
+    width: 100%;
+  }
+}  
+
+12-15 加班餐17
+12-16 加班餐18
+12-17 加班餐13
+12-18 加班餐16
+
+12-21 加班餐15
+12-22 加班餐17
+
+
+
+
+
+
+[{"value":"11","label":"布控"},
+{"value":"12","label":"撤控"},
+{"value":"13","label":"续控"},
+{"value":"31","label":"停控申请"},
+{"value":"32","label":"撤销停控"}]
+
+
+
+[{"value":"AP","label":"自动审批"},
+{"value":"CH","label":"撤回"},
+{"value":"SP","label":"审批"},
+{"value":"SQ","label":"申请"},
+{"value":"TH","label":"退回"}]
+
+:default-time="['00:00:00', '23:59:59']"
+
+
+
+申请单状态
+[{"value":"00","label":"临时"},
+{"value":"01","label":"草稿"},    regular
+{"value":"02","label":"已撤回"},  regular
+{"value":"10","label":"申请中"},  danger
+{"value":"20","label":"审批中"},  danger
+{"value":"21","label":"审批通过"},   success
+{"value":"22","label":"审批不通过"}, warning
+{"value":"30","label":"已到期"},   success
+{"value":"31","label":"已撤控"}]  regular
+
+
+ 
+
+
+审批状态
+[{"value":"0","label":"未审批"},  danger
+{"value":"1","label":"审批通过"}, success
+{"value":"2","label":"审批不通过"}, warning
+{"value":"3","label":"无需审批"}, success
+{"value":"4","label":"审批中"}]  danger
+
+
+[{"value":"00","label":"无申请"},
+{"value":"11","label":"布控申请中"},
+{"value":"12","label":"撤控中"},
+{"value":"13","label":"续控申请中"}]
+
+
+布控状态
+[{"value":"10","label":"申请中"},
+{"value":"20","label":"布控中"},
+{"value":"02","label":"已撤控"},
+{"value":"21","label":"即将到期"},
+{"value":"01","label":"已到期"},
+{"value":"00","label":"未布控"}]
+
+布控类型
+[{"value":"11","label":"布控"},
+{"value":"12","label":"撤控"},
+{"value":"13","label":"续控"},
+{"value":"31","label":"停控申请"},
+{"value":"32","label":"撤销停控"}]
+
+
+
+D:\bingo\SvnZhaoTong\trunk\PublicSecurity
+
+
+
+
+统一预警、新增布控、预警轨迹左侧--光华
+统一预警更多、历史预警、轨迹、重点人员左侧--龙龙
+防控圈配置、统一管控对象、操作、统一审批--辰国
+所有详情--白冰
+
+
+
+
+
+msgData: "{"QZFW_ZLXX":{"jsdwdm":"440000000000","scfkxxbh":"","zxfkdwdm":"","qsrid":"","fbrsfzh":"350681198412216519","fbdwmc":"广东省公安厅","zllx":"CZZL","qsrsfzh":"","zxfkrxm":"","jsdlx":"","qssj":"","fkzt":"00","ywlx":"LKYJ","zljb":"5","zyjlid":"","jsdwmc":"广东省公安厅","bz":"","fbrid":"dfdfsfsf323324324324324324324","lyid":"44000021020200000003","qsdwmc":"","zxfksj":"","fbrxm":"bdyq","zysm":"","yqfksx":"20210202114351","zlxxbh":"44000021020200000003","ypjlid":"","rksj":"","zxfkrid":"","zxfkrsfzh":"","qsdwdm":"","ypzt":"00","qszt":"00","czcsyq":"掌握轨迹","qsrxm":"","lylx":"YJXX","zxfkxxbh":"","ypjg":"","lyzlxxbh":"","zxfkdwmc":"","bgsj":"","zlyq":"","thly":"","yqqssx":"20210202114351","fbdwdm":"440000000000","fbsj":"20210202084351","yqypsx":"20210202114351"},"old_QZFW_ZLXX":{},"QZFW_YJZLXX":{"csrq":null,"gjid":"dddd4a5c2df148dd8ceb9d07c64c5517","dxlx":"111","fwzh":"粤临字【预警指令】〔2021〕第118号","yjsj":"20210202084357","fsdshcs":"3244575","yjxxlx":"LKYJ","xxbdsj":"20210202084420","jzdxz":null,"cfdqh":null,"hdxgxx":"111@110109194802040319 广州市越秀区东越秀区风中路305号20210202084420","zlxxbh":"44000021020200000003","bkdyfw":"440100,440200,440300,440400,440500,440600,440700,440800,440900,441200,441300,441400,441500,441600,441700,441800,441900,442000,445100,445200,445300","dtxxlx":"44101007","jzdqh":null,"jzdpcsdm":null,"fsdxz":" 广州市越秀区东越秀区风中路305号","mddqh":null,"mz":null,"ispb":"0","yjjb":"5","yjzt":"99","xxly":"2","dxhm":"110109194802040319","jlrylb":null,"jd":"113.25808227544984","jg":null,"sfmzfkq":"0","rylb":null,"hdfssj":"20210202084420","hjdpcsdm":null,"wd":"23.13478989528289","hjdxz":null,"bzdrybh":null,"hjdqh":null,"fsdshcsmc":"人民政府","bkgzid":null,"xxbddw":"440000000000","fsdqh":"440104","yjxxbh":"44000021020200000003","yjly":"BDGJ","xb":null,"bkdwdm":"440000000000","bkjb":"3","fsdgajgdm":"440000000000","bzhm":"111@110109194802040319","sfzh":null,"dxbh":"44000021012900000020","xm":null,"gxddwdm":null,"fhgzids":null}}"
+msgDate: "202102"
+
+
+
+
+msgData: "{"QZFW_ZLXX":{"jsdwdm":"440000000000","scfkxxbh":"","zxfkdwdm":"","qsrid":"","fbrsfzh":"350681198412216519","fbdwmc":"广东省公安厅","zllx":"CZZL","qsrsfzh":"","zxfkrxm":"","jsdlx":"","qssj":"","fkzt":"00","ywlx":"LKYJ","zljb":"5","zyjlid":"","jsdwmc":"广东省公安厅","bz":"","fbrid":"dfdfsfsf323324324324324324324","lyid":"44000021012900000006","qsdwmc":"","zxfksj":"","fbrxm":"bdyq","zysm":"","yqfksx":"20210129172100","zlxxbh":"44000021012900000004","ypjlid":"","rksj":"","zxfkrid":"","zxfkrsfzh":"","qsdwdm":"","ypzt":"00","qszt":"00","czcsyq":"掌握轨迹","qsrxm":"","lylx":"YJXX","zxfkxxbh":"","ypjg":"","lyzlxxbh":"","zxfkdwmc":"","bgsj":"","zlyq":"","thly":"","yqqssx":"20210129172100","fbdwdm":"440000000000","fbsj":"20210129142100","yqypsx":"20210129172100"},"old_QZFW_ZLXX":{},"QZFW_YJZLXX":{"csrq":"1981010","gjid":"b9d04ef5efc64036aa0f15f0a30e960b","dxlx":"111","fwzh":"\"粤临字【预警指令】〔2021〕第113号\"","yjsj":"20210129142105","fsdshcs":"3244575","yjxxlx":"LKYJ","xxbdsj":"20210129142126","jzdxz":"\n大同市平城区恒源路(大同市卫生学校东侧约200米)","cfdqh":null,"hdxgxx":"111@142223198101093061 广州市越秀区东越秀区风中路305号20210129142126","zlxxbh":"44000021012900000004","bkdyfw":"140100,140200,140300,140400,140500,140600,140700,140800,140900,141000,141100","dtxxlx":"44101007","jzdqh":"140202","jzdpcsdm":null,"fsdxz":" 广州市越秀区东越秀区风中路305号","mddqh":"440104","mz":"01","ispb":"0","yjjb":"5","yjzt":"99","xxly":"2","dxhm":"142223198101093061","jlrylb":null,"jd":"113.25808227544984","jg":"140108","sfmzfkq":"0","rylb":null,"hdfssj":"20210129142126","hjdpcsdm":null,"wd":"23.13478989528289","hjdxz":"山西省太原市尖草坪区新兰路98号","bzdrybh":null,"hjdqh":"140108","fsdshcsmc":"人民政府","bkgzid":null,"xxbddw":"440000000000","fsdqh":"440104","yjxxbh":"44000021012900000006","yjly":"BDGJ","xb":"1","bkdwdm":"440000000000","bkjb":"3","fsdgajgdm":"440000000000","bzhm":"111@142223198101093061","sfzh":"142223198101093061","dxbh":"14223221012000000002","xm":"肖冠楠","gxddwdm":null,"fhgzids":null}}"
+msgDate: "202101"
+
+
+
+var obj = {a: 1, b: 2, c: { a: 3 },d: [4, 5]}
+var obj1 = obj
+var obj2 = JSON.parse(JSON.stringify(obj))
+var obj3 = {...obj}
+var obj4 = Object.assign({},obj)
+console.log(obj === obj1)
+console.log(obj === obj2)
+console.log(obj === obj3)
+console.log(obj === obj4)
+obj.a = 999
+obj.c.a = -999
+obj.d[0] = 123
+console.log(obj) 
+console.log(obj1) 
+console.log(obj2) 
+console.log(obj3) 
+console.log(obj4) 
+
+var obj = {a: 1, b: 2, c: { a: 3 },d: [4, 5]}
+var obj1 = {...obj}
+
+
+var arr = [1, 2, 3, [4, 5], {a: 6, b: 7}]
+var arr1 = JSON.parse(JSON.stringify(arr))
+var arr2 = arr
+var arr3 = [...arr]
+
+arr
+
+var obj = {a: 1, b: 2, c: { a: 3 },d: [4, 5]}
+var obj1 = obj
+var obj2 = JSON.parse(JSON.stringify(obj))//深拷贝常用方法
+var obj3 = {...obj}
+var obj4 = Object.assign({},obj)
+obj3.a = 999
+obj3.c.a = -999
+obj3.d[0] = 123
+console.log(obj) 
+console.log(obj1) 
+console.log(obj2) 
+console.log(obj3) 
+console.log(obj4) 
+
+var arr = [1, 2, 3, [4, 5], {a: 6, b: 7}]
+var arr1 = JSON.parse(JSON.stringify(arr))//深拷贝常用方法
+var arr2 = arr
+var arr3 = [...arr]
+var arr4 = Object.assign([],arr)
+
+arr3[0]= 999
+arr3[3][0]= -999
+arr3[4].a = 123
+console.log(arr)
+console.log(arr1) 
+console.log(arr2)
+console.log(arr3)
+console.log(arr4) 
+
+
+
+
+
+扩展字段，JSON结构，KEY有ryxm人员姓名、rybh人员编号、hpys号牌颜色、clys车辆颜色
+
+人员类别，多个逗号隔开
+
+
+
+
+
+
+

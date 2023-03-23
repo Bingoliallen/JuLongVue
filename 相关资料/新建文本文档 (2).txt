@@ -1,0 +1,68 @@
+11几款前端IDE工具：Sublime、Atom、VSCode比较
+
+https://www.jianshu.com/p/f5b62cc0dcb3
+
+webpack
+https://www.webpackjs.com/guides/
+
+
+
+http://www.w3school.com.cn/html5/index.asp
+
+11个在线学习网站
+
+https://www.cnblogs.com/PengHongMiao/p/5879516.html
+
+
+
+https://class.imooc.com/newfe
+
+
+http://www.runoob.com
+
+小白的H5成长之路
+
+https://www.jianshu.com/c/10ae7c1cb8e3
+
+
+H5学习路线图
+https://blog.csdn.net/soindy/article/details/52387451
+
+HTML5初学者路线图
+https://blog.csdn.net/wellsoho/article/details/49758769
+
+
+HTML 链接：http://pan.baidu.com/s/1jIIg7R4 密码：87mo
+CSS 链接：http://pan.baidu.com/s/1boEaPI3 密码：31ad
+JavaScript链接：http://pan.baidu.com/s/1dFlgHFz 密码：79ka
+jQuery 链接：http://pan.baidu.com/s/1boSnXpX 密码：zls0
+
+HTML5入门：HTML5入门 - 网易云课堂
+
+CSS3：CSS3 - 网易云课堂
+
+JavaScript：JavaScript - 网易云课堂
+
+书的话，还是推荐一些经典的吧：
+
+《Head first HTML&CSS》：入门级必备，难度合适
+
+《JavaScript DOM编程艺术》：同样入门级教材
+
+《HTML5权威指南》：内容全面，进阶阶段可看
+
+《JavaScript高级程序设计》：JS圣经，殿堂级教材
+
+
+webstorm 2018 激活破解方法大全
+https://blog.csdn.net/voke_/article/details/76418116
+自学网
+https://www.51zxw.net/list.aspx?cid=540
+
+
+
+MVP内存泄漏
+https://blog.csdn.net/qq137722697/article/details/78275882
+
+
+https://www.html5tricks.com/
