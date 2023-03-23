@@ -1,0 +1,126 @@
+/**
+ * 公共组合变量(compositional variable)
+*/
+
+@mixin link-colors($normal, $hover: $normal, $visited: $normal) {
+  color: $normal;
+  &:hover {
+    color: $hover;
+  }
+  &:visited {
+    color: $visited;
+  }
+}
+
+@mixin linear-gradient($deg, $first, $last) {
+  background: -webkit-linear-gradient($deg, $first 0%, $last 100%);
+  background: -o-linear-gradient($deg, $first 0%, $last 100%);
+  background: -moz-linear-gradient($deg, $first 0%, $last 100%);
+  background: linear-gradient($deg, $first 0%, $last 100%);
+}
+
+// 多行文本缩略
+// @param $line Number 行数
+@mixin multi-ellipsis($line) {
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  overflow: hidden;
+}
+
+@mixin no-bullets {
+  list-style: none;
+  li {
+    list-style: none;
+    margin-left: 0px;
+  }
+}
+
+@mixin rounded-corners {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@mixin line-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* media query
+-------------------------- */
+$large: 'screen and (min-width: 1681px)';
+$medium: 'screen and (max-width: 1680px) and (min-width: 1366px)';
+$small: 'screen and (max-width: 1365px)';
+$l-rem: 16px;
+$m-rem: 14px;
+$s-rem: 12px;
+
+@mixin mq($mqString) {
+  @media #{$mqString} {
+    @content;
+  }
+}
+// flex 布局并且高度占满
+@mixin flex-dc($class, $scroll: false, $height: true) {
+  #{$class} {
+    display: flex;
+    flex-direction: column;
+    @content;
+    &__content {
+      flex: 1;
+      @if $height {
+        height: 0;
+      }
+      @if $scroll {
+        overflow: auto;
+      }
+    }
+  }
+}
+
+@mixin layout-title($fs, $padding: 0 2rem) {
+  font-size: $fs;
+  font-weight: bold;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  padding: $padding;
+}
+
+/**
+ * @params $c: 居中类型，可取值： x,y,b 水平居中，垂直居中，都居中
+ */
+@mixin absolute-center($c: 'b') {
+  position: absolute;
+  @if $c == 'y' {
+    top: 50%;
+    transform: translateY(-50%);
+  } @else if $c == 'x' {
+    left: 50%;
+    transform: translateX(-50%);
+  } @else {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@mixin text-ellipsis($maxWidth) {
+  @if ($maxWidth) {
+    max-width: $maxWidth;
+  }
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

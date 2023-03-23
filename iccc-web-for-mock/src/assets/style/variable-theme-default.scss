@@ -1,0 +1,298 @@
+//导入公共变量
+@import 'common';
+/* ------------------------ start theme ------------------------------ */
+
+/* 主题色
+-------------------------- */
+/// color|1|Theme Color|4
+$--color-primary: #1890ff !default;
+
+/* 功能色
+-------------------------- */
+/// color|1|Function Color|4
+$--color-success: #52c41a !default;
+/// color|1|Function Color|4
+$--color-warning: #faad14 !default;
+/// color|1|Function Color|4
+$--color-danger: #f5222d !default;
+/// color|1|Function Color|4
+$--color-info: #bfbfbf !default;
+
+/* 图片路径
+-------------------------- */
+$img-file-src: '../';
+
+/* 辅助色
+-------------------------- */
+/// color|1|Neuter Color|4
+$--color-white: #ffffff !default;
+/// color|1|Neuter Color|4
+$--color-black: #000000 !default;
+$--color-dark: #000000 !default;
+
+/* 文本颜色
+-------------------------- */
+/// text|1|Text Color|4
+$--color-text-primary: rgba($--color-black, 0.85) !default;
+/// text|1|Text Color|4
+$--color-text-secondary: rgba($--color-black, 0.65) !default;
+/// text|1|Text Color|4
+$--color-text-regular: rgba($--color-black, 0.45) !default;
+/// text|1|Text Color|4
+$--color-text-placeholder: rgba($--color-black, 0.25) !default;
+
+/* 边框颜色
+-------------------------- */
+/// text|1|Divider Color|4
+$--border-color-base: rgba($--color-black, 0.15) !default;
+
+/* 分割线颜色
+-------------------------- */
+/// text|1|Divider Color|4
+$--border-color-extra-light: rgba($--color-black, 0.09) !default;
+/// text|1|Border Color|4
+$--border-color-extra-light: rgba($--color-dark, 0.15) !default;
+
+/* 按钮颜色
+-------------------------- */
+$--button-color-primary: #1890ff !default;
+$--button-primary-hover-background-color: #599eff;
+
+/* 图标颜色
+-------------------------- */
+/// text|1|Icon Color|4
+$--message-close-icon-color: rgba($--color-black, 0.45) !default;
+$--message-close-hover-color: rgba($--color-black, 0.65) !default;
+
+/* 禁用颜色
+-------------------------- */
+/// text|1|Disabled Color|4
+$--disabled-fill-base: rgba($--color-black, 0.02) !default;
+/// text|1|Disabled Color|4
+$--disabled-color-base: rgba($--color-black, 0.25) !default;
+/// text|1|Disabled Color|4
+$--disabled-border-base: rgba($--color-black, 0.15) !default;
+
+/* 背景色
+-------------------------- */
+/// text|1|background Color|4
+$--background-color-base: rgba($--color-primary, 0.08) !default;
+
+/* 表头颜色
+-------------------------- */
+/// text|1|TableHead Color|4
+$--table-header-background-color: rgba($--color-black, 0.02) !default;
+
+/* ------------------------ end theme ------------------------------ */
+
+/* ------------------------ start sys ------------------------------ */
+
+/* default global setting
+-------------------------- */
+/// text|1|Global Color|4
+$l-admin-app: $--color-white !default;
+/// text|1|Global Color|4
+$l-admin-app-bg: mix($--color-black, $l-admin-app, 4%) !default;
+
+/* other component reset
+-------------------------- */
+/// text|1|Input Color|4
+$--input-background-color: $--color-white !default;
+/// text|1|DropDown Color|4
+$dg--dropdown-menu-background: $l-admin-app !default;
+/// text|1|Popover Color|4
+$--popover-border-color: #ebeef5 !default;
+$--popover-background-color: $l-admin-app !default;
+/// text|1|Message Color|4
+$--message-background-color: $l-admin-app !default;
+/// text|1|Select Color|4
+$--select-dropdown-background: $--color-white !default;
+/// text|1|SelectTag Color|4
+$dg--select-tag-background-color: $l-admin-app !default;
+/// text|1|Card Color|4
+$dg--card-background: $--color-white !default;
+
+/* l-main-header 头部区域
+-------------------------- */
+/// color|1|Header Color|4
+$l-main-header-background-gradient-1: #5db1ff !default;
+/// color|1|Header Color|4
+$l-main-header-background-gradient-2: #2f9bff !default;
+/// color|1|Header Color|4
+$l-main-header-title-color: #ffffff !default;
+/// color|1|Header Color|4
+$l-avatar-box-font-color: #eef8fe !default;
+
+/** sys-menu
+---------------------------------------------------*/
+$--uo-menu-item-color: rgba(255, 255, 255, 0.65);
+$--uo-menu-item-active-color: #1890ff;
+$--user-content-color: rgba(255, 255, 255, 0.85);
+
+/** setting-bg
+----------------------------------------------------------------*/
+$--uo-setting-background: rgba(255, 255, 255, 0.95);
+$--uo-setting-color: rgb(64, 144, 255);
+
+/* l-sidebar 侧边栏布局
+-------------------------- */
+/// color|1|Sidebar Color|4
+$l-sidebar-background: #ffffff !default;
+/// color|1|Sidebar Color|4
+$l-sidebar-header-border: #e8e8e8 !default;
+/// color|1|Sidebar Color|4
+$u-menu-background: #ffffff !default;
+/// color|1|Sidebar Color|4
+$u-menu-font: #333333 !default;
+/// color|1|Sidebar Color|4
+$u-menu-icon-font: #999999 !default;
+$--menu-background-color: $u-menu-background !default;
+
+/* l-main-tags 标签页
+-------------------------- */
+/// color|1|TagPage Color|4
+$l-main-tags-item-background-color: #ffffff !default;
+/// text|1|TagPage Color|4
+$l-main-context-background-color: rgba($l-admin-app-bg, 1) !default;
+/// text|1|TagPage Color|4
+$l-main-tags-item-font-color: $--color-text-primary !default;
+/// text|1|TagPage Color|4
+$l-main-tags-item-active-font-color: $--color-primary !default;
+$l-main-tags-item-active-background-color: rgba(0, 0, 0, 0.04);
+$l-main-tags-item-close-color: $--color-text-regular;
+
+/* dg-normal-card 卡片
+-------------------------- */
+/// text|1|NormalCard Color|4
+$dg-normal-card-background: rgba($--color-white, 1) !default;
+/// text|1|NormalCard Color|4
+$--button-default-background-color: rgba($--color-white, 1) !default;
+$dg-card-background: $dg-normal-card-background !default;
+
+/* ------------------------ end sys ------------------------------ */
+
+/** ui4**/
+$--font-path: '~ui-component-v4/lib/theme-chalk/fonts';
+$dg--font-path: '~ui-component-v4/lib/theme-chalk/icon';
+$dg--image-path: '~ui-component-v4/lib/theme-chalk/images';
+
+/* default global setting
+-------------------------- */
+$dg-container-box-large-margin: $l-rem;
+$dg-container-box-medium-margin: $m-rem;
+$dg-container-box-small-margin: $s-rem;
+$dg-container-box-large-padding: $l-rem * 2;
+$dg-container-box-medium-padding: $m-rem * 2;
+$dg-container-box-small-padding: $m-rem * 2;
+
+/* l-main-header 头部区域
+-------------------------- */
+$l-main-header-large-height: 4 * $l-rem;
+$l-main-header-medium-height: 4 * $m-rem;
+$l-main-header-small-height: 4 * $s-rem;
+$--menu-item-text-primary: #c8cac9;
+$--menu-item-font-size: 12px;
+$--menu-item-backgroud: #6f6f6f;
+$--menu-item-poper-backgroud: #eff6ff;
+$--menu-item-poper-fouse: #4090fc;
+$l-main-user-large-height: 2 * $l-rem;
+$l-main-user-medium-height: 2 * $m-rem;
+$l-main-user-small-height: 2 * $s-rem;
+$l-main-hiocn-large-height: 15px;
+$l-main-hiocn-medium-height: 12px;
+$l-main-hiocn-small-height: 9px;
+$l-main-menu-color: #f8f8f8;
+$l-main-menu-color-blue1: #3c76c7;
+$l-main-menu-color-blue2: #333945;
+
+/* l-main-tags 标签页
+-------------------------- */
+$l-main-tags-item-large-margin: 13px 4px;
+$l-main-tags-item-medium-margin: 10px 4px;
+$l-main-tags-item-small-margin: 6px 4px;
+
+$l-main-tags-item-large-margin-top: 13px;
+$l-main-tags-item-medium-margin-top: 10px;
+$l-main-tags-item-small-margin-top: 6px;
+
+/* l-sidebar 侧边栏布局
+-------------------------- */
+$l-sidebar-large-width: 272px;
+$l-sidebar-large-shrink-width: 4 * $l-rem;
+$l-sidebar-medium-width: 202px;
+$l-sidebar-medium-shrink-width: 4 * $m-rem;
+$l-sidebar-small-width: 176px;
+$l-sidebar-small-shrink-width: 4 * $s-rem;
+
+$l-sidebar-large-header-height: 54px;
+$l-sidebar-medium-header-height: 48px;
+$l-sidebar-small-header-height: 40px;
+
+/* u-menu 菜单栏
+-------------------------- */
+$u-menu-active-font: $--color-primary;
+$u-menu-active-bg: rgba($--color-primary, 0.08);
+$u-menu-select-bg: rgba($--color-primary, 0.12);
+
+$u-menu-item-large-height: 48px;
+$u-menu-item-medium-height: 42px;
+$u-menu-item-small-height: 36px;
+
+/* u-menu 横向菜单栏
+-------------------------- */
+$u-menu-title-hover-background: #1682e6;
+$u-menu-item-hover-background: rgba(24, 144, 255, 0.08);
+$u-menu-title-hover-color: #1890ff;
+
+/** tab-list
+-----------------------------------------------------------------*/
+$--tab-list-border: #88b1ee;
+$--tab-list-item-active-color: #fff;
+$--tab-list-item-background: #fff;
+$--tab-list-item-active-background: #4c87db;
+
+/** uo-tab
+-----------------------------------------------------------------*/
+$u-tab-border: #1090ff;
+$u-tab-item-active-color: #fff;
+$u-tab-item-background: #fff;
+$u-tab-item-active-background: #1090ff;
+/** 弹框
+--------------------------------------------------------*/
+/// background|1|dialogHead Color|4
+$--dialog-header-background-color: rgb(72, 77, 89);
+/// transparent-background|1|dialogHead Color|4
+$--dialog-header-transparent-background-color: #272b35;
+$--dialog-header-font-color: rgba($--color-white, 0.65);
+$--dialog-header-font-hover-color: rgba($--color-white, 0.85);
+/// transparent-background|1|dialog Color|4
+$--dialog-transparent-background-color: rgba(255, 255, 255, 0.95);
+$--dialog-multiple-background-color: rgba(0, 0, 0, 0.04);
+$--dialog-multiple-module-background-color: #fff;
+
+/* linear-gradient 线性渐变.uo-tab-container
+-------------------------- */
+@mixin linear-gradient($color-first, $color-second) {
+  background: -moz-linear-gradient(top, $color-first 0%, $color-second 50%, $color-second 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, $color-first),
+    color-stop(50%, $color-second),
+    color-stop(100%, $color-second)
+  );
+  background: -webkit-linear-gradient(left, $color-first 0%, $color-second 50%, $color-second 100%);
+  background: -o-linear-gradient(left, $color-first 0%, $color-second 50%, $color-second 100%);
+  background: -ms-linear-gradient(left, $color-first 0%, $color-second 50%, $color-second 100%);
+  background: linear-gradient(to left, $color-first 10%, $color-second 50%, $color-second 100%);
+}
+
+/* 文件路径变量
+-------------------------- */
+$--base-resources-path: '/static/iccc/themes/';
+
+/* 项目样式文件
+-------------------------- */
+@import '~ui-component-v4/packages/theme-chalk/src/index.scss';
+@import 'main.scss';

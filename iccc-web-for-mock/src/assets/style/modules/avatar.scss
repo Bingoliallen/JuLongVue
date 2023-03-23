@@ -1,0 +1,54 @@
+@mixin avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-color);
+  color: var(--color-text-placeholder);
+}
+.avatar-error {
+  &__ry,
+  &__zp,
+  &__cl,
+  &__sj,
+  &__wx,
+  &__qq {
+    font-size: 2rem;
+  }
+}
+.avatar-error__ry:after {
+  @include avatar;
+  content: '\e7b0';
+}
+.avatar-error__zp:after {
+  @include avatar;
+  content: '\e749';
+}
+.avatar-error__cl:after {
+  @include avatar;
+  content: '\e7ae';
+}
+.avatar-error__sj:after {
+  @include avatar;
+  content: '\e7af';
+}
+.avatar-error__wx:after {
+  @include avatar;
+  content: '\e8e7';
+}
+.avatar-error__qq:after {
+  @include avatar;
+  content: '\e8e8';
+}
+.group-head-img__empty:after {
+  @include avatar;
+  content: '\e7b1';
+}
+.group-head-img__empty{
+  font-size: 2rem;
+}

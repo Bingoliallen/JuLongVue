@@ -1,0 +1,65 @@
+/**
+ *@author: hlk
+ *@createTime: 2019/11/15 13:24
+ *@description:
+ *@功能:
+ * @modify by hecg 2019/12/04.
+ * 添加悬浮效果
+ */
+.u-lable-btn {
+  vertical-align: super;
+  label {
+    margin-right: 0.5rem;
+    span {
+      position: relative;
+      border-radius: 2px !important;
+      border: 1px solid $--border-color-extra-light;
+      &.el-radio-button__inner,
+      &.el-checkbox-button__inner {
+        &:hover {
+          border: 1px solid $--color-primary;
+        }
+      }
+    }
+    input:checked + span.el-radio-button__inner,
+    input:checked + span.el-checkbox-button__inner {
+      box-shadow: unset;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 14px;
+        height: 14px;
+        background: url('#{$img-file-src}/images/btn/check.png') no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+  &.is-no-border {
+    label {
+      span {
+        border-color: transparent;
+        &.el-radio-button__inner,
+        &.el-checkbox-button__inner {
+          &:hover {
+            border: 1px solid $--color-primary;
+          }
+        }
+      }
+      input:checked + span.el-radio-button__inner,
+      input:checked + span.el-checkbox-button__inner {
+        color: $--color-primary;
+        background: transparent;
+      }
+      &:first-child {
+        span {
+          border-color: transparent;
+        }
+        input:checked + span {
+          border-color: $--color-primary;
+        }
+      }
+    }
+  }
+}

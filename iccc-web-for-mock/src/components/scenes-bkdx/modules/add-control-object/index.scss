@@ -1,0 +1,82 @@
+.addControlObject {
+  .el-form {
+    max-width: 85% !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    // 控制form校验规则css
+    .revise_el-form-item__error /deep/ {
+      flex: 5 !important;
+      .el-form-item__content {
+        .el-form-item__error {
+          margin-left: 10px;
+        }
+      }
+    }
+    .form-item_inline /deep/ {
+      display: flex;
+      .el-form-item__content {
+        display: flex;
+      }
+      .input{
+        margin-left: 8px;
+      }
+    }
+    .inline-button_group {
+      margin-left: 10px;
+      .dg-upload {
+        .el-button {
+          color: var(--color-primary);
+          background: var(--dg-upload_button_background);
+          border-color: var(--dg-upload_button_border);
+          &:hover {
+            background: var(--button-color-primary);
+            border-color: var(--button-color-primary);
+            color: var(--color-white);
+          }
+        }
+        display: inline-block;
+      }
+    }
+    .dg-tree-select,
+    .dg-select {
+      width: 100% !important;
+    }
+  }
+}
+.upload {
+  text-align: left;
+  &__img {
+    /deep/ .el-upload-list {
+      > li {
+        padding: 0;
+        margin-right: 18px;
+        width: 80px;
+        height: 80px;
+        .el-upload-list__item-status-label {
+          display: none;
+        }
+      }
+    }
+    /deep/ .el-upload--picture-card {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      .el-upload {
+        width: inherit;
+        height: inherit;
+        line-height: inherit;
+        border-radius: 2px;
+      }
+      .el-icon-plus {
+        width: inherit;
+        height: inherit;
+        line-height: inherit;
+        font-size: 18px;
+      }
+      .dg-upload--text {
+        bottom: 30px;
+      }
+    }
+  }
+}

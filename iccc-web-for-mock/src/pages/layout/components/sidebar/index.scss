@@ -1,0 +1,107 @@
+/**
+ * Dragonsoft Layout UI
+ *
+ * @author TangDM
+ * @date 20190313
+ */
+
+/* 加载基本的样式表
+-------------------------- */
+@import '~@icccPath/assets/style/variable-theme-default';
+
+/* u-menu 菜单
+-------------------------- */
+.u-menu {
+  position: relative;
+  .u-menu__container {
+    border-right: 0;
+    background: $u-menu-bg;
+    color: $u-menu-font;
+  }
+  .el-scrollbar {
+    width: 100%;
+    height: 100%;
+  }
+  .el-menu-item,
+  .el-submenu__title {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 0 8px;
+    margin: 8px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.5s;
+    .icon {
+      display: inline-block;
+      width: 10px;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    i {
+      color: $u-menu-icon-font;
+    }
+  }
+  .el-menu-item.is-active,
+  .el-submenu__title.is-active {
+    color: #1890ff;
+    background-color: #212227 !important;
+    // background-color: $u-menu-active-bg;
+    // color: $u-menu-active-font;
+    // box-shadow: 0 0 8px $u-menu-active-bg;
+    .icon {
+      color: $u-menu-active-font;
+    }
+  }
+  .el-menu-item:hover,
+  .el-submenu__title:hover {
+    color: #1890ff;
+    background-color: #212227 !important;
+    // background-color: $u-menu-active-bg;
+    // color: $u-menu-active-font;
+    // box-shadow: 0 0 8px $u-menu-active-bg;
+    i {
+      color: $u-menu-active-font;
+    }
+  }
+  .el-submenu__title {
+    margin: 0 12px;
+  }
+  .el-menu--inline {
+    .icon {
+      display: none;
+    }
+  }
+  .el-menu-item,
+  .el-submenu__title {
+    span {
+      display: inline-block;
+      max-width: 90px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  .el-submenu .el-menu-item {
+    padding-left: 22px;
+    span {
+      display: inline-block;
+      max-width: 100px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  .el-submenu .el-menu-item {
+    min-width: 0;
+    max-width: 162px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 0 8px;
+    margin: 8px 12px;
+    box-sizing: border-box;
+    p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

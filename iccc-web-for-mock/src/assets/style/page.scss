@@ -1,0 +1,1054 @@
+/* 表单label样式
+-------------------------- */
+.el-form {
+  .el-form-item {
+    margin-bottom: 18px;
+    &__label {
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+  &.form-detail {
+    .el-form-item {
+      margin-bottom: 0 !important;
+      padding: 5px 0;
+      &__label {
+        padding: 0;
+        line-height: 1.5;
+      }
+      &__content {
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+/* 下拉框背景
+-------------------------- */
+.el-select-dropdown {
+  background: #fff;
+}
+
+/* 提示弹框样式
+-------------------------- */
+.el-message-box__headerbtn {
+  top: 12px;
+  right: 16px;
+  font-size: 18px;
+}
+
+// 抵消 table-form 中的 margin-bottom: 20px;
+.dg-table {
+  .el-form-item.dg-form-column__form-item--wrap {
+    margin-bottom: 0;
+  }
+}
+
+/* 标题通用样式
+-------------------------- */
+.v-h4 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.v-p {
+  font-size: 16px;
+}
+
+/* 链接通用样式
+-------------------------- */
+.v-link {
+  font-size: 16px;
+  color: #1890ff;
+
+  &:visited,
+  &:link {
+    text-decoration: underline;
+  }
+}
+
+/* 弹窗样式
+-------------------------- */
+.dialog-page-container .dg-dialog__footer {
+  border: 0px;
+}
+
+.v-title-info {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+/* 表格搜索样式
+-------------------------- */
+.dg-content {
+  .el-form {
+    //padding-right: 102px;
+
+    .el-form-item {
+      margin-bottom: 16px;
+      margin-right: 48px;
+    }
+
+    .v-form-search-box {
+      text-align: right;
+      display: block;
+    }
+  }
+
+  .search-form {
+    .el-col {
+      .el-form-item {
+        display: flex;
+
+        .el-form-item__label {
+          white-space: nowrap;
+          flex-basis: auto;
+        }
+
+        .el-form-item__content {
+          width: 100%;
+        }
+
+        .el-select {
+          width: 100%;
+        }
+
+        .el-input__inner {
+          width: 100%;
+        }
+
+        .el-input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* 通用卡片
+-------------------------- */
+.dg-normal-card {
+  width: 100%;
+  // height: 183px;
+  padding: 16px 24px;
+  background: $dg-normal-card-background;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  &__info {
+    height: 112px;
+  }
+
+  &__title {
+    font-size: 30px;
+    color: $--color-text-primary;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    color: $--color-text-regular;
+  }
+
+  &__tip {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+
+  & .dg-normal-card__foot {
+    padding-top: 14px;
+    margin-top: 10px;
+    border-top: 1px solid $--border-color-base;
+    color: $--color-text-secondary;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+
+    // slot=footer 扩展
+    & .el-icon-refresh {
+      float: right;
+      font-size: 20px;
+      color: #b1b1b1;
+    }
+
+    & .v-normal-cart-strong {
+      color: $--color-text-primary;
+      padding-left: 2px;
+    }
+  }
+
+  & .v-normal-cart-per {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+
+    & + .v-normal-cart-per {
+      margin-left: 15px;
+    }
+
+    & .v-normal-cart__up {
+      position: absolute;
+      display: block;
+      top: 7px;
+      right: 5px;
+      width: 0px;
+      height: 0px;
+      border-bottom: 6px solid #f5222d;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-radius: 2px;
+    }
+
+    & .v-normal-cart__down {
+      position: absolute;
+      display: block;
+      top: 7px;
+      right: 5px;
+      width: 0px;
+      height: 0px;
+      border-top: 6px solid #52c41a;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-radius: 2px;
+    }
+  }
+
+  & .dg-normal-card__box {
+    font-size: 14px;
+    color: $--color-text-secondary;
+    margin-top: 10px;
+    height: 35px;
+
+    // display: flex;
+    // align-items: flex-end;
+    & .ve-line {
+      height: 35px;
+    }
+  }
+}
+
+// 首页样式 -- 图标
+// 资源检测图标
+.v-icon-source {
+  display: inline-block;
+  width: 25px;
+  height: 27px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat 0px 0px;
+  background-size: 302px 35px;
+}
+
+.v-icon-data {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat -48px -1px;
+  background-size: 302px 35px;
+}
+
+.v-icon-warning-data {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat -109px -1px;
+  background-size: 302px 35px;
+}
+
+.v-icon-problem-per {
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat -166px -1px;
+  background-size: 302px 35px;
+}
+
+.v-icon-deal {
+  display: inline-block;
+  width: 29px;
+  height: 26px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat -212px -1px;
+  background-size: 302px 35px;
+}
+
+.v-icon-deal-per {
+  display: inline-block;
+  width: 29px;
+  height: 26px;
+  background: url(#{$--base-resources-path}/style/images/dashboard/icon.png) no-repeat -263px -1px;
+  background-size: 302px 35px;
+}
+
+.icon-word-box {
+  & .icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .word {
+    float: left;
+    margin-left: 15px;
+    & .title {
+      font-size: 14px;
+      color: $--color-text-regular;
+    }
+    & .subTitle {
+      font-size: 24px;
+      color: $--color-text-primary;
+    }
+  }
+}
+
+.word-title {
+  font-size: 16px;
+  color: $--color-text-primary;
+  margin-bottom: 25px;
+}
+
+/* 表格展示
+-------------------------- */
+.uo-table-container {
+  margin-top: 1rem;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  &__button {
+    margin: 1rem auto;
+  }
+}
+
+/* dg-search-page
+-------------------------- */
+.dg-search-page__form /deep/ {
+  .el-form-item {
+    padding: 4px 0;
+    @media #{$large} {
+      & {
+        padding: 6px 0;
+      }
+    }
+  }
+}
+
+/* dg-search-page__table
+------------------------------*/
+.dg-search-page__table /deep/ {
+  .el-table td,
+  .el-table th {
+    @media #{$small} {
+      & {
+        padding: 8px 0 8px;
+      }
+    }
+  }
+}
+
+/* dg-button 按钮 -------------------------- */
+/*region dg-button 按钮 */
+.dg-button.el-button--text:not(.is-disabled):hover {
+  text-decoration: underline;
+}
+/*endregion*/
+
+/*region 分割线 */
+/* 段落分割线 */
+.uo-split-line__paragraph {
+  border-width: 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.09);
+}
+/* 按钮分割线 */
+.uo-split-line__btn {
+  color: rgba(0, 0, 0, 0.09);
+}
+/*endregion*/
+
+/* 状态图标及颜色
+-------------------------- */
+.iconf-circle-error {
+  color: $--color-danger;
+  padding-right: 1px;
+  vertical-align: -1px;
+}
+.iconf-circle-check {
+  color: $--color-success;
+  padding-right: 1px;
+  vertical-align: -1px;
+}
+.iconf-timel {
+  color: $--color-warning;
+  padding-right: 1px;
+  vertical-align: -1px;
+}
+
+/* layer 弹窗样式
+-------------------------- */
+.uo-layer-title {
+  .layui-layer-title {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #333842 0%, #343943 80%, #373c47 86%, #3b404a 92%, #393e48 100%);
+    color: $--color-white;
+    padding: 0 0 0 32px;
+    height: 3.5rem;
+    border-radius: 0px;
+  }
+  .layui-layer-setwin {
+    right: 2rem;
+    .layui-layer-close1 {
+      width: 12px;
+      height: 12px;
+      color: $--color-white;
+      font-weight: 700;
+    }
+  }
+  .layui-layer-btn {
+    .dialog-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .el-button + .el-button {
+        margin-left: 12px;
+      }
+    }
+  }
+  .layui-layer-content {
+    padding: 1.5rem 2rem;
+  }
+  &.layer-no-padding {
+    .layui-layer-content {
+      padding: 0 !important;
+      > * {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 1366px) {
+    .layui-layer-title {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 1680px) and (min-width: 1367px) {
+    .layui-layer-title {
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 1681px) {
+    .layui-layer-title {
+      font-size: 18px;
+    }
+    .layui-layer-setwin {
+      top: 16px;
+    }
+  }
+}
+
+.uo-layer-order-detail {
+  .layui-layer-content {
+    padding: 1.5rem 0;
+  }
+}
+
+/* 自定义表格中会出现的样式
+-------------------------- */
+.dg-table .is-primary,
+.dg-table .is-blue,
+.dg-table .is-primary a,
+.dg-table .is-blue a {
+  color: $--color-primary;
+}
+.dg-table .is-danger,
+.dg-table .is-red {
+  color: $--color-danger;
+}
+.dg-table .is-success,
+.dg-table .is-green {
+  color: $--color-success;
+}
+//.dg-table .pointer-handle {
+//  cursor: pointer;
+//  display: inline-block;
+//}
+.dg-table .pointer-handle:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.disabled {
+  pointer-events: none;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+/*
+---------------- 滚动条默认显示样式--*/
+//#region 滚动条样式
+::-webkit-scrollbar {
+  // 滚动条大小
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  // 滚动条显示样式
+  &-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    // 鼠标点击滚动条显示样式
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+    // 鼠标点击的颜色
+    &:active {
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+  }
+  // 滚动框背景样式
+  &-track-piece {
+    background-color: transparent;
+    margin: -2px;
+  }
+}
+//#endregion
+
+//修改表格的底部横线
+.el-table {
+  &::before {
+    content: none;
+  }
+  &__fixed-right::before,
+  &__fixed::before {
+    content: none;
+  }
+}
+.dg-table__pagination {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+//修改弹窗按钮顺序
+.btn-custom-cancel {
+  float: right;
+  margin-left: 10px;
+}
+
+/* 输入框加入限制字数时，当字数过长时会被挡住
+-------------------------- */
+.fix-limit-s {
+  .el-input__inner {
+    padding-right: 44px;
+  }
+}
+.fix-limit-m {
+  .el-input__inner {
+    padding-right: 58px;
+  }
+}
+
+// 日期选择框
+.dg-date-picker {
+  // 清空按钮
+  .el-range__close-icon {
+    @include mq($small) {
+      line-height: 24px;
+    }
+    @include mq($medium) {
+      line-height: 26px;
+    }
+    @include mq($large) {
+      line-height: 30px;
+    }
+  }
+}
+
+// 输入框
+.el-textarea {
+  @include mq($small) {
+    font-size: 12px;
+  }
+  textarea {
+    & + span.el-input__count {
+      visibility: hidden;
+    }
+    &:focus,
+    &:hover {
+      & + span.el-input__count {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+/* 附件下载popover
+-------------------------- */
+.popper-appendix {
+  max-width: 450px;
+}
+
+/* el-form-item 输入框和重置收缩按钮
+-------------------------- */
+.el-form .el-form-item__default-btn {
+  margin-bottom: 0;
+  .el-form-item__content {
+    display: flex;
+    .el-input {
+      width: 320px;
+    }
+    .default-btn-group {
+      flex: 1;
+      text-align: right;
+    }
+  }
+}
+// 展开和收缩按钮
+.el-icon-arrow-down {
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+  &.shrink {
+    transform: rotate(180deg);
+  }
+}
+
+.cactus-pagination {
+  margin-top: 15px;
+  text-align: right;
+}
+// 图标状态标识
+.icon-status {
+  &.el-icon-success:before {
+    color: #00c900;
+  }
+  &.el-icon-error:before {
+    color: #f50d2e;
+  }
+  &.el-icon-warning:before {
+    color: #faad14;
+  }
+}
+.iconf-circle-close {
+  color: #f5222d;
+  padding-right: 1px;
+  vertical-align: -1px;
+}
+
+/* uo-upload 注释文案
+-------------------------- */
+.item-tips {
+  font-size: 12px;
+  color: rgba($color: #000000, $alpha: 0.45);
+  @include mq($large) {
+    padding-left: 10px;
+  }
+  &.upload-tips {
+    position: absolute;
+    left: 7rem;
+    min-width: 250px;
+  }
+}
+
+.line-over-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ueditor 工具栏固定顶部
+-------------------------- */
+.edui-default .edui-editor-toolbarbox {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  font-size: 0;
+  line-height: 1;
+}
+.edui-default .edui-editor-iframeholder {
+  margin-top: 33px !important;
+}
+// 列表项的切换动画 transition-group
+.flip-list {
+  &-item {
+    transition: all 0.5s;
+  }
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  &-leave-active {
+    position: absolute;
+  }
+}
+
+/* 从服务端搜索数据的下拉框
+-------------------------- */
+.el-autocomplete-suggestion li:hover {
+  color: #1890ff;
+}
+// popover 内部样式
+.el-popover {
+  .more {
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 2;
+    span {
+      background: rgba(24, 144, 255, 0.15);
+      padding: 2px 0.5em;
+      border-radius: 2px;
+    }
+    em {
+      font-style: normal;
+      /*color: rgba(24, 144, 255, 0.85);*/
+    }
+  }
+}
+
+// 超出隐藏，但是最后面显示图标
+.flex-ellipsis {
+  display: flex;
+  align-items: center;
+  .flex-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    span {
+      position: relative;
+    }
+  }
+  .flex-nowrap {
+    white-space: nowrap;
+  }
+  .flex-icon {
+    margin-left: 0.5em;
+    color: #1890ff;
+    cursor: pointer;
+  }
+}
+
+.ch-zxd-popper {
+  display: none;
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.edit-page-container {
+  margin: 0 auto;
+  padding: 30px 30px 30px 20px;
+  background: #fff;
+}
+
+.icon-jjcd {
+  &[type='success'] {
+    color: #52c41a;
+  }
+  &[type='warning'] {
+    color: #faad14;
+  }
+  &[type='danger'] {
+    color: #f5222d;
+  }
+}
+
+.text-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: $--color-primary;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 14px;
+}
+.demo-scroll-bar {
+  width: 100%;
+  height: 500px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+/* 实例可视化样式
+-------------------------- */
+.v-code-demo {
+  padding: 0 16px;
+  &__header {
+    position: relative;
+    height: 48px;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 10%;
+      top: 13px;
+      width: 90%;
+      border-bottom: 1px dashed #e6e7eb;
+    }
+  }
+  &__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #f2f4f6;
+    border-radius: 4px;
+    color: #666;
+  }
+  &__content {
+  }
+}
+
+.dg-flex {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.dg-flex-auto {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  width: 100%;
+}
+.dg-scroll-content {
+  width: 100%;
+  height: 100%;
+}
+.dg-scroll-content__inner {
+  padding: 0 17px 0 0;
+}
+.dg-overflow__hide {
+  overflow: hidden;
+}
+.dg-hide {
+  display: none;
+}
+.al-center {
+  text-align: center;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+// 分页
+$paginationWidth: 3em;
+.el-pagination {
+  &__editor.el-input {
+    width: $paginationWidth;
+    .el-input__inner {
+      width: $paginationWidth;
+    }
+  }
+}
+// 照片的放大窗口
+.viewer-container.viewer-fixed {
+  z-index: 9999999 !important;
+}
+
+.dg-date-picker {
+  .el-date-editor {
+    width: 100%;
+    padding-right: 0;
+  }
+  .el-range-separator {
+    width: 2em;
+  }
+}
+// 比对结果 区域的搜索表单
+.title-form-area {
+  font-weight: normal;
+  float: right;
+  &.disabled {
+    pointer-events: none;
+  }
+  &.el-form {
+    .el-form-item {
+      margin: 0;
+      &__label {
+        padding-right: 0;
+      }
+      & + .el-form-item {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  .dg-date-picker {
+    width: 290px;
+  }
+  .qs-slider-main {
+    margin: 0 0.5rem;
+  }
+  @include mq('screen and (max-width: 1500px)') {
+    .dg-date-picker {
+      width: 259px;
+    }
+    .qs-slider-container {
+      .qs-slider-main.el-slider {
+        width: 80px;
+      }
+      .el-slider__input.is-controls-right {
+        margin-left: 6px;
+        width: 66px;
+        .el-input__inner {
+          padding: 0 32px 0 8px;
+        }
+        .el-input-number {
+          &__decrease,
+          &__increase {
+            width: 2rem;
+          }
+        }
+      }
+    }
+    .u-text-input {
+      width: 128px;
+      .el-input__inner {
+        padding: 0 2rem 0 0.5rem;
+      }
+    }
+  }
+}
+
+// 修改右上角角标样式
+.el-badge {
+  line-height: 1;
+  &__content {
+    //right: 0;
+    //transform: translateX(-50%) translateY(-50%);
+    border-radius: 2px;
+    width: 26px;
+    height: 16px;
+    line-height: 16px;
+    border: none;
+    padding: 0;
+  }
+}
+// 弹出框包含一个表单
+.popper-form {
+  padding: 0;
+}
+
+.dg-tree-select {
+  width: 100%;
+}
+
+// 平移动画
+// 被移动的元素需要被单独包裹起来，设置定位 absolute
+/**
+    <div style="position: relative;">
+      <transition name="move-ltr">
+        <div v-if="pageExpand" class="move-ltr"></div>
+      </transition>
+      <transition name="move-rtl">
+        <div v-if="!pageExpand" class="move-rtl"></div>
+      </transition>
+    </div>
+ */
+@mixin move($d: '') {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  &-enter {
+    transform: translateX(#{$d}100%);
+    //opacity: 0;
+    &-active {
+      transition: all 1s ease-in-out;
+    }
+    &-to {
+    }
+  }
+  &-leave {
+    &-active {
+      transition: all 1s ease-in-out;
+      transform: translateX(#{$d}100%);
+      //opacity: 0;
+    }
+    &-to {
+    }
+  }
+}
+.move-ltr {
+  @include move('-');
+}
+.move-rtl {
+  @include move();
+}
+@mixin move-time($c, $t: 500ms) {
+  &.#{$c} {
+    &-enter-active,
+    &-leave-active {
+      transition: all $t ease-in-out;
+    }
+  }
+}
+.move-fast {
+  @include move-time('move-ltr');
+  @include move-time('move-rtl');
+}
+
+//统计分析 我的
+.statistical-mine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__left {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mq($large) {
+      width: 5rem;
+      height: 5rem;
+    }
+    @include mq($medium) {
+      width: 4rem;
+      height: 4rem;
+    }
+    @include mq($small) {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  &__right {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    justify-content: center;
+  }
+  .i-fontsize {
+    @include mq($large) {
+      font-size: 2rem;
+    }
+    @include mq($medium) {
+      font-size: 1rem;
+    }
+    @include mq($small) {
+      font-size: 1rem;
+    }
+  }
+  .fontsize-title {
+    @include mq($large) {
+      font-size: 14px;
+    }
+  }
+  .fontsize-small {
+    @include mq($large) {
+      font-size: 12px;
+    }
+  }
+  .fontsize-large {
+    @include mq($large) {
+      font-size: 24px;
+    }
+  }
+}

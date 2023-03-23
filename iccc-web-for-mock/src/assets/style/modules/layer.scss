@@ -1,0 +1,53 @@
+/* 弹窗样式
+-------------------------- */
+.layui-layer,
+.el-dialog {
+  border-radius: 4px;
+}
+.layui-layer-title,
+.dg-dialog__header {
+  border-radius: 2px 2px 0 0;
+  background: $--dialog-header-background-color;
+}
+.layui-layer-dialog .layui-layer-ico,
+.layui-layer-setwin a,
+.layui-layer-btn a,
+.layui-layer-title,
+.el-dialog__title {
+  color: $--color-white;
+}
+.el-dialog__headerbtn .el-dialog__close {
+  color: $--dialog-header-font-color;
+}
+.layui-layer-setwin .layui-layer-close1:hover,
+.dg-dialog__header:focus .el-dialog__close,
+.dg-dialog__header:hover .el-dialog__close,
+.el-dialog__headerbtn:focus .el-dialog__close,
+.el-dialog__headerbtn:hover .el-dialog__close {
+  color: $--dialog-header-font-hover-color;
+}
+.layui-layer-setwin .layui-layer-min cite {
+  background-color: $--color-white;
+}
+.layui-layer-btn {
+  border-top: 0;
+  .layui-layer-btn0 {
+    border-color: $--color-primary;
+    background-color: $--color-primary;
+    &:hover {
+      border: 1px solid $--button-primary-hover-background-color;
+      background-color: $--button-primary-hover-background-color;
+    }
+  }
+}
+.layui-layer-btn a {
+  color: $--color-text-primary;
+  &:hover {
+    opacity: unset;
+  }
+}
+.layui-layer-btn .layui-layer-btn1:hover {
+  border: 1px solid #badeff;
+  color: $--color-primary;
+  background: $--background-color-base;
+}

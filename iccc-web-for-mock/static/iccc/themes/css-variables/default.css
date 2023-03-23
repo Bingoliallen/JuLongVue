@@ -1,0 +1,97 @@
+/* 全局的颜色变量写在html里面，组件变量写在body里 */
+html {
+  /* 主题色 */
+  --color-primary: #1890ff;
+
+  /* 功能色  */
+  --color-success: #52c41a;
+  --color-warning: #faad14;
+  --color-danger: #f5222d;
+  --color-info: #bfbfbf;
+
+  /* 辅助色 */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark: #000000;
+  --color-pink: #ff646c;
+  --color-gray: #fafafa;
+
+  /* 文本颜色 */
+  --color-text-primary: rgba(0, 0, 0, 0.85);
+  --color-text-secondary: rgba(0, 0, 0, 0.65);
+  --color-text-regular: rgba(0, 0, 0, 0.45);
+  --color-text-placeholder: rgba(0, 0, 0, 0.25);
+
+  /* 边框颜色 */
+  --border-color-base: rgba(0, 0, 0, 0.15);
+
+  /* 分割线颜色  */
+  --border-color-extra-light: rgba(0, 0, 0, 0.09);
+  --border-color-extra-heavy: rgba(0, 0, 0, 0.15);
+
+  /* 按钮颜色 */
+  --button-color-primary: #1890ff;
+
+  /* 图标颜色 */
+  --message-close-icon-color: rgba(0, 0, 0, 0.45);
+  --message-close-hover-color: rgba(0, 0, 0, 0.65);
+
+  /* 禁用颜色 */
+  --disabled-fill-base: rgba(0, 0, 0, 0.02);
+  --disabled-color-base: rgba(0, 0, 0, 0.25);
+  --disabled-border-base: rgba(0, 0, 0, 0.15);
+
+  /* 背景色 */
+  --background-color: #ffffff;
+  --background-color-base: rgba(24, 144, 255, 0.08);
+  --background-color-weak2: rgba(24, 144, 255, 0.06);
+  --background-color-weak: rgba(24, 144, 255, 0.04);
+
+  /* 表头颜色 */
+  --table-header-background-color: rgba(0, 0, 0, 0.02);
+}
+
+body {
+  --infinite-scroll_loading_color: var(--color-text-secondary);
+  --border: 1px solid var(--border-color-base);
+  --border-light: 1px solid var(--border-color-extra-light);
+
+  --box-shadow: 0 3px 10px 0 rgba(24, 144, 255, 0.3);
+
+  --card-info_card-del-cell_background: rgba(245, 34, 45, 0.02);
+  --card-info_card-del-cell_border_color: rgba(245, 34, 45, 0.45);
+
+  /* 添加对象模块 */
+  --control-object-card_shadow_color: var(--box-shadow);
+  --control-object-popovere-content_popover_background: rgba(0, 0, 0, 0.04);
+  --control-object-popovere-content_popper__arrow_border: #f5f5f5;
+  --edit-objcet_gxdx-card-btn_hover_background: rgba(245, 34, 45, 0.02);
+  --edit-objcet_gxdx-card-btn_hover_border_color: rgba(245, 34, 45, 0.15);
+  --dg-upload_button_background: #e8f4ff;
+  --dg-upload_button_border: #a3d3ff;
+  /* 对象详情模块 */
+  --detail-head-panel_arrow_color: rgba(0, 0, 0, 0.45);
+  --detail-head-panel_arrow_background: rgba(0, 0, 0, 0.04);
+  --carousel_tip_background: rgba(0, 0, 0, 0.65);
+  --carousel_hover_box-shadow: var(--box-shadow);
+  --carousel_button_background: rgba(0, 0, 0, 0.04);
+  --carousel_button_hover_background: rgba(24, 144, 255, 0.08);
+  --carousel_shadow-num_background: rgba(0, 0, 0, 0.4);
+  --carousel_img_box-shadow: rgba(0, 0, 0, 0.1);
+  --warning-trajectory_monitor-list-item__title_background: rgba(24, 144, 255, 0.04);
+  --control-informaction_cv-detail-page__box-row_border: #f2f6fc;
+  --time-line_ul-li-cut-tail_background: #e4e7ed;
+  --warning-trajectory_imgStyleSuspend_box-shadow: rgba(0, 0, 0, 0.1);
+  /* 防控圈列表 */
+  --control-circle_fkq-card-item_border-color: #d8d8d8;
+  --control-circle_fkq-card-item_hover-border-color: #008fff;
+  --control-circle_fkq-card-item_hover-box-shadow: rgba(0, 143, 255, 0.3);
+  --control-circle_fkq-card-item_bottom_background: rgba(216, 216, 216, 0.15);
+  /* 悬浮图片 */
+  --suspend-img_suspend-img_title_background-color: #000;
+  --suspend-img_suspend-img_title_color: rgba(255, 255, 255, 0.65);
+  --suspend-img_suspend-img_percent_color: #fff;
+
+  --earlywarning_background_orange: #ff7700;
+  --earlywarning_background_yellow: #ffc000;
+}

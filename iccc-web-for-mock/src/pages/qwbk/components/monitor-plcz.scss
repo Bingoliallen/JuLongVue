@@ -1,0 +1,73 @@
+.monitor-plcz {
+  background: var(--background-color);
+  .el-scrollbar__view {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-1 {
+    border-bottom: var(--border-light);
+  }
+  .title-2 {
+    margin-top: 0.5em;
+  }
+  &_content {
+    flex: 1;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .overview {
+    font-weight: 500;
+    em {
+      padding: 0 2px;
+    }
+    .bkdx {
+      color: var(--color-primary);
+    }
+    .sfz {
+      color: var(--color-primary);
+    }
+    .rxbk {
+      color: var(--color-danger);
+    }
+    .glsx {
+      color: var(--color-success);
+    }
+  }
+  &_list {
+    position: relative;
+    margin-top: 1rem;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 315px);
+    //grid-template-rows: repeat(auto-fill, 100px);
+    grid-gap: 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+    .monitor-obj-card {
+      padding: 0 !important;
+      $height: 6.25rem;
+      &.active {
+        .iccc-card-item {
+          background-color: transparent;
+          border-color: var(--color-primary);
+          box-shadow: var(--box-shadow);
+        }
+      }
+      .iccc-card-item_img {
+        height: $height;
+        width: $height;
+      }
+      .iccc-card-item_btn {
+        height: calc(#{$height} + 2px);
+        line-height: calc(#{$height} + 2px);
+        margin: -1px;
+      }
+    }
+  }
+  &_btn {
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
